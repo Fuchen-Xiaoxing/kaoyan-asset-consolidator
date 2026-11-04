@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "7a4224b0eddd1182",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b044d5f34fd6f26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1d7adcbc4d7dcc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "task2/archive/20261020_2014_chart_城乡人口结构变迁（2014英二）.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20261020_2014_chart_城乡人口结构变迁（2014英二）"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "770596303e2686dd",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "248188a33abad35d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-folder-closed",
+          "title": "文件列表"
+        }
+      },
+      {
+        "id": "35866eb9e8c7d27b",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "搜索"
+        }
+      },
+      {
+        "id": "9bce019c5a504043",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "标签"
+        }
+      },
+      {
+        "id": "9493ab2a9bcd4cb1",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "添加笔记属性"
+        }
+      },
+      {
+        "id": "b59ef069722920c7",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-bookmark",
+          "title": "书签"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "b67d1866fbd438a9",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ae4c867b3f74a52b",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "task1/archive/20261015_2017_reply_letter_接受教授邀请并介绍展示要点（2017英二）.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "反向链接"
+        }
+      },
+      {
+        "id": "ca9921422c0c6e16",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "task2/archive/20261006_2010_chart_发展中国家与发达国家手机用户增长走势（2010英二）.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "出链"
+        }
+      },
+      {
+        "id": "78fb0a811e44ebd7",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "task2/archive/20261006_2010_chart_发展中国家与发达国家手机用户增长走势（2010英二）.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "大纲"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "a1d7adcbc4d7dcc2",
+  "lastOpenFiles": [
+    "task2/archive/20261023_2015_chart_春节假期消费结构（2015英二）.md",
+    "task2/archive/20261027_2016_chart_某高校学生旅游目的调查（2016英二）.md",
+    "task1/archive/20261026_2020_recommendation_为留学生规划泰山历史名胜一日游（2020英二小作文）.md",
+    "task1/archive/20261022_2019_advice_致Smith教授：推荐辩题并汇报辩论安排（2019英二）.md",
+    "task1/archive/20261019_2018_apology_因急病取消拜访并致歉改约（2018英二）.md",
+    "task1/archive/20261015_2017_reply_letter_接受教授邀请并介绍展示要点（2017英二）.md",
+    "task1/archive/20261012_2016_reply_letter_答谢好友祝贺并分享翻译学习建议（2016英二）.md",
+    "task1/archive/20261008_2015_notice_夏令营志愿者招募通知（2015英语二）.md",
+    "task1/archive/20261005_2014_advice_合租室友生活习惯告知与当地生活咨询（2014英二）.md",
+    "task2/archive/20261020_2014_chart_城乡人口结构变迁（2014英二）.md",
+    "task2/archive/20261009_2011_chart_国内轿车品牌市场份额变化（2011英二）.md",
+    "task2/archive/20261006_2010_chart_发展中国家与发达国家手机用户增长走势（2010英二）.md",
+    "task2/archive/20261016_2013_chart_某高校学生兼职情况（2013英二）.md",
+    "task2/archive/20261013_2012_chart_某公司员工工作满意度调查（2012英二）.md",
+    "task1/archive/20261002_2013_notice_慈善义卖通知兼倡议（2013英二）.md"
+  ]
+}
