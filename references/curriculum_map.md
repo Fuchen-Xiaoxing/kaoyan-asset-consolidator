@@ -1,6 +1,6 @@
 # 考研英语二“外脑资产内化”课程框架与主题映射表 (Curriculum Map)
 
-本课程框架依据《需求说明书》中“按文章段落功能槽位组织训练”的核心原则，将 19 篇历年真题高分范文、61 条段落功能句式及 128 条场景动宾语素完整映射为两大主线、共 8 大训练主题。
+本课程框架依据考研英语二段落功能槽位组织训练，将 19 篇历年真题高分范文、61 条段落核心功能句式及 128 条场景动宾语素完整映射为两大主线、共 8 大训练主题。全部句式 ID 与资产库（assets/writing_brain/）保持 100% 精确对齐。
 
 ---
 
@@ -9,29 +9,30 @@
 ### 主题 A1：第一段·图表数据定格描述
 * **功能定位**：首段图表概括。训练柱状图“动态增减/对比”与饼图“静态占比/极值”的精准描述骨架，要求载体、主体、时间周期、极值与走势四要素一次到位。
 * **对应篇目（2010–2017 真题首段）**：
-  - `2010 英二`（手机用户增长）：双主体对照，动态柱状图显著增长与平稳对照。
-  - `2011 英二`（轿车品牌份额）：多主体占比与动态消长（自主品牌 vs 日系 vs 德系）。
-  - `2012 英二`（员工工作满意度）：表格数据分类与满意度落差定格。
-  - `2013 英二`（兼职学生分布）：柱状图各类兼职占比与两极分化。
-  - `2014 英二`（城乡人口变迁）：城镇与乡村人口比例的历史性反超。
-  - `2015 英二`（春节消费开支）：饼图多项支出排序与峰值（礼品、聚餐等）。
-  - `2016 英二`（学生旅游动机）：柱状图多动机降序排列与核心诉求。
-  - `2017 英二`（博物馆与参观量）：双柱图数量与参观人数双增长。
+  - 2010 英二（手机用户增长）：双主体对照，动态柱状图显著增长与平稳对照。
+  - 2011 英二（轿车品牌份额）：多主体占比与动态消长（自主品牌 vs 日系 vs 美系）。
+  - 2012 英二（员工工作满意度）：表格数据分类与满意度落差定格。
+  - 2013 英二（兼职学生分布）：柱状图多阶段前缓后急走势定格。
+  - 2014 英二（城乡人口变迁）：城镇与乡村人口比例的历史性反超。
+  - 2015 英二（春节消费开支）：饼图多项支出排序与极值定格（礼品、聚餐、交通）。
+  - 2016 英二（学生旅游动机）：柱状图多动机降序排列与核心诉求。
+  - 2017 英二（博物馆与参观量）：双柱图数量与参观人数双增长。
 * **核心句式（task2/expressions.jsonl）**：
-  - `T2_GEN_STR_001`: As is distinctly illustrated in the [Chart Type], [Entity A] witnessed a(n) [Adjective] [Trend Noun] in [Metric], from [Data 1] in [Year 1] to [Data 2] in [Year 2], while the figure grew at a far more [Adjective] pace in [Entity B].
-  - `T2_PIE_STR_001`: According to the data provided by the pie chart, [Dominant Entity] accounts for the lion's share of [Total Metric], reaching [Percentage 1], whereas [Entity B] and [Entity C] make up [Percentage 2] and [Percentage 3] respectively.
-  - `T2_BAR_STR_001`: The bar chart vividly portrays that [Subject] underwent a dramatic shift between [Year 1] and [Year 2], with [Category A] climbing markedly to [Number 1].
+  - `T2_GEN_STR_001`: 图表首段双主体对照与极值还原骨架：载体、主体、时间周期、极值与走势四要素一次到位
+  - `T2_CHART_SEN_014`: 饼图首段：极值与并列等值一次还原到位（accounts for the largest share of... at... while... each make up...）
+  - `T2_CHART_SEN_006`: 首段「前缓后急」双节奏趋势收束：以 climbed from A to B 立主线，before surging to C 点亮突变极值
 
 ---
 
 ### 主题 A2：第二段·因果机制推演与五大场景语素组装
-* **功能定位**：第二段归因剖析。训练因果总起句、深层机理展开句，并分批嵌入 5 大维度的动宾语素，彻底解决“空转模板、无话可说”的痛点。
+* **功能定位**：第二段归因剖析。训练因果总起句、深层机理展开句，并分批嵌入 5 大维度的动宾语素，彻底解决“空转套话、无话可说”的痛点。
 * **核心句式（task2/expressions.jsonl）**：
-  - `T2_GEN_SEN_001`: This wide [gap / discrepancy] was due in large part to the marked differences in [Dimension].
-  - `T2_GEN_SEN_002`: A host of interrelated factors have converged to drive this unmistakable trend.
-  - `T2_GEN_SEN_003`: First and foremost, [Cause Clause], which serves as the primary catalyst behind [Phenomenon].
-  - `T2_GEN_SEN_004`: Moreover, it is worth noting that [Secondary Cause], thereby fueling the rapid expansion of [Target].
-  - `T2_GEN_SEN_005`: In stark contrast, [Counter Subject] has been severely impeded by [Obstacle], leaving little room for further growth.
+  - `T2_GEN_SEN_001`: 次段归因维度定调：替代空转的 A number of factors contribute to...，开篇即给出归因维度
+  - `T2_GEN_SEN_002`: 抽象趋势落地为具体结果的短句换气：意愿/趋势转化为可观测行为
+  - `T2_GEN_SEN_003`: 双主体题型的对照收口连接句：明确宣告对照而非并列，替代平淡的 while / however
+  - `T2_CHART_SEN_001`: 无生命主语一路驱动，以结果分词链把动作与结果压缩进一句
+  - `T2_CHART_SEN_004`: 次段归因定维开篇：直接点破归因维度，替代空转的 Several factors contribute to...
+  - `T2_CHART_SEN_012`: 次段定因开篇，一句锁定两条并列动因
 * **五大场景语素维度组装（shared/morphemes.jsonl）**：
   1. **维度 1：个人发展与成长 (Personal Development & Career Growth)**
      - `M_JOB_004`: navigate one's career path (规划并驾驭职业发展道路)
@@ -75,10 +76,10 @@
 ### 主题 A3：第三段·宏观总结、趋势预测与建议闭环
 * **功能定位**：尾段收束升华。训练趋势预测、客观评价与合理化建议句式，实现首尾呼应、严谨闭环。
 * **核心句式（task2/expressions.jsonl）**：
-  - `T2_GEN_SEN_006`: From what has been analyzed above, it is safe to predict that this trend will continue in the foreseeable future.
-  - `T2_GEN_SEN_007`: In view of the discussion above, government authorities and relevant institutions should join hands to [action].
-  - `T2_GEN_SEN_008`: Only by striking a balance between [Aspect A] and [Aspect B] can we ensure sustainable growth.
-  - `T2_GEN_SEN_009`: To sum up, while [Phenomenon] brings tangible benefits, rational guidance is indispensable to avoid potential hazards.
+  - `T2_CHART_SEN_008`: 末段总结＋价值判断：以 indicates 引出趋势背后的观念转变
+  - `T2_CHART_SEN_016`: 末段批判与前瞻双收口：给判断而非给态度，政企协同推进
+  - `T2_CHART_SEN_003`: 末段 Only 状语前置倒装收束，强调唯有二者兼顾方能实现可持续增长
+  - `T2_CHART_SEN_022`: 末段升华加批判转折双收口，先肯定趋势再点出潜在隐患
 
 ---
 
@@ -86,13 +87,13 @@
 * **功能定位**：篇章连贯与宏观控盘。按年份逐篇对 2010–2017 年 8 篇大作文进行段落串联、首中尾三段逐句回译，复盘从段落骨架到整篇行文的衔接词与语法连贯性。
 * **复盘篇目**：
   - 2010：发展中国家与发达国家手机用户增长走势（柱状图·科技与经济）
-  - 2011：国内轿车品牌市场份额变化（饼图·产业竞争与自主研发）
+  - 2011：国内轿车品牌市场份额变化（柱状图·产业竞争与自主研发）
   - 2012：某公司员工工作满意度调查（表格·薪酬激励与职场人际）
-  - 2013：某高校学生兼职情况（饼图·兼职动因与技能锤炼）
+  - 2013：某高校学生兼职情况（柱状图·兼职动因与技能锤炼）
   - 2014：城乡人口结构变迁（柱状图·城镇化与社会治理）
   - 2015：春节假期消费结构（饼图·节日经济与传统亲情）
   - 2016：某高校学生旅游目的调查（柱状图·休闲解压与视野拓宽）
-  - 2017：博物馆数量与参观人数（线柱图·精神文化消费与公共服务供给）
+  - 2017：博物馆数量与参观人数（柱状图·精神文化消费与公共服务供给）
 
 ---
 
@@ -102,20 +103,21 @@
 * **功能定位**：应用文破题开篇。集中训练各文类的规范首句（问候/背景铺垫 + 目的直陈），确保格式规范、语域适度、不拖泥带水。
 * **覆盖文类与句式（task1/expressions.jsonl）**：
   - **建议信/咨询信**：
-    - `T1_ADV_STR_001`: I am writing this letter to share with you a few constructive recommendations on [topic].
-    - `T1_ADV_STR_002`: Knowing that/how [clause], I am writing to offer you some practical advice on [purpose].
+    - `T1_ADV_STR_002`: 分词状语前置：以「我知道你此刻的心情」开篇，自然滑入写信目的（私人书信可复用的开篇骨架）
+    - `T1_ADV_SEN_009`: 书信开篇以情感锚点引出身份或事由
   - **投诉信**：
-    - `T1_CMP_STR_001`: I am writing to lodge a formal complaint regarding the defective [item/service] I purchased from your store.
-    - `T1_CMP_STR_002`: Having placed great confidence in your brand, I was dismayed to discover that [problem].
+    - `T1_COM_SEN_001`: 投诉信开篇定调：一句话交代投诉意图、商品、购买渠道与购买时间四要素
+    - `T1_COM_TMP_001`: 投诉信三段式全文槽位模板
   - **通知/倡议书**：
-    - `T1_NOT_STR_001`: Notice is hereby given that [Event] is scheduled to be held on [Date] in [Location].
-    - `T1_NOT_STR_002`: We are delighted to announce that an exciting campaign will be launched to [purpose].
+    - `T1_NOT_SEN_004`: 通知公告的招募启动句：先给理由再提需求
   - **邀请信**：
-    - `T1_INV_STR_001`: On behalf of [Organization], I have the great pleasure of inviting you to attend [Event].
+    - `T1_INV_STR_001`: 时间地点之后顺带交代会议目的与诚挚邀约
   - **道歉信**：
-    - `T1_APO_STR_001`: I am writing to express my deepest apologies for [mistake / missing appointment].
-  - **回复信/感谢信**：
-    - `T1_REP_STR_001`: Thank you very much for your congratulations. I am writing in reply to share with you my insights on [topic].
+    - `T1_APO_SEN_001`: 开篇致歉定调，同时点明无法如期做某事
+    - `T1_APO_SEN_002`: 先立期待、再砸意外，制造情感落差
+  - **回复信/推荐信**：
+    - `T1_REP_STR_001`: 以意愿语开篇，并用 before doing 把两个先后动作串联成一句
+    - `T1_REC_SEN_001`: 推荐类介绍段首句：定位 + 承载物 + 价值三层递进
 
 ---
 
@@ -123,49 +125,45 @@
 * **功能定位**：正文要点充实。按三大功能群组组织，训练提建议、布活动、陈诉求的核心动宾语素与逻辑承接。
 * **功能群组 1：提建议 / 做推荐（Advice & Recommendation）**
   - 核心篇目：2011（大学迎新筹备）、2014（合租生活与当地咨询）、2019（英语辩题推荐）、2020（泰山一日游规划）
-  - 句式与语素：
-    - `T1_ADV_SEN_005`: It is never too early to [action], which will undoubtedly help you [benefit].
-    - `T1_ADV_SEN_006`: You had better [action], or [negative outcome] may follow.
-    - `T1_ADV_SEN_007`: You are highly encouraged to [action], who will [benefit].
-    - `M_LIFE_001`: manage monthly budget by keeping a record of spending
-    - `M_SOC_001`: get along with one's roommates
-    - `M_SCENE_009`: fit in with the local life smoothly
-    - `M_SCENE_096`: be home to countless historical relics and stone carvings
+  - 核心句式：
+    - `T1_ADV_SEN_005`: 双重否定式强调：推动对方尽早采取行动，并给出收益闭环
+    - `T1_ADV_SEN_006`: 警示句（反向加码）：用「不做就会怎样」的负面后果给建议加重锤
+    - `T1_ADV_SEN_007`: 建议 + 理由：用定语从句说明为什么该这么做，避免只下命令
+    - `T1_ADV_SEN_008`: 虚拟语气提建议：柔化口吻，适合私人书信中给对方支招
+    - `T1_REC_SEN_002`: 给同伴提客观建议：形式主语句缓和语气，for 引领原因分句
+    - `T1_REC_SEN_003`: 互动型建议：祈使句软化 + 收益闭环
 * **功能群组 2：活动安排 / 招募要求（Event & Recruitment Notice）**
   - 核心篇目：2013（慈善义卖倡议）、2015（夏令营志愿者招募）、2021（行程规划线上会议）
-  - 句式与语素：
-    - `T1_NOT_SEN_001`: The event is scheduled to take place at [venue] from [time 1] to [time 2].
-    - `T1_NOT_SEN_002`: Applicants are expected to possess strong communication skills and an earnest sense of responsibility.
-    - `M_SCENE_016`: ensure the smooth running of the summer camp
-    - `M_SCENE_017`: maintain order and provide guidance for participants
-    - `M_SCENE_018`: receive and register distinguished guests
+  - 核心句式：
+    - `T1_NOT_SEN_001`: 强调句型，把关键成分推到焦点位置作号召
+    - `T1_NOT_SEN_002`: 品类范围列举，体现货品或活动丰富
+    - `T1_NOT_SEN_005`: 招募征选类文书交代任职要求，品质前置作主语成为焦点
 * **功能群组 3：解释原因 / 表达诉求（Complaints, Apologies & Explanations）**
   - 核心篇目：2012（网购电子词典投诉）、2018（急病取消拜访致歉）、2016/2017（接受邀请与安排）
-  - 句式与语素：
-    - `T1_CMP_SEN_001`: Much to my disappointment, the product failed to function properly shortly after its delivery.
-    - `T1_CMP_SEN_002`: Under such circumstances, I would be grateful if you could either replace the defective goods or refund my payment in full.
-    - `T1_APO_SEN_001`: Regrettably, an unexpected emergency has arisen, which compels me to postpone our prearranged appointment.
-    - `M_SCENE_001`: offer a constructive and acceptable solution
-    - `M_SCENE_066`: be stricken with an acute illness and hospitalized
-    - `M_SCENE_067`: reschedule our meeting at your earliest convenience
+  - 核心句式：
+    - `T1_COM_SEN_002`: 前置让步—落差指控：先立信任筹码，再砸出缺陷事实，形成交涉力度
+    - `T1_REP_SEN_001`: 给建议或立主张时先给动作、后补理由（for 引导原因分句）
+    - `T1_ADV_SEN_013`: 论证议题具争议性并给出理由
 
 ---
 
 ### 主题 B3：各文类尾段·期盼回复与礼貌闭环
 * **功能定位**：应用文规范结尾。训练各类信件与告示的礼貌收束、行动呼吁、期盼回复与温情寄语。
 * **核心句式（task1/expressions.jsonl）**：
-  - `T1_GEN_CLS_001`: I would greatly appreciate your prompt attention to this matter and look forward to hearing from you soon. (投诉/求助闭环)
-  - `T1_GEN_CLS_002`: Should you have any inquiries or need further details, please feel free to reach out to me. (咨询/通知答疑通道)
-  - `T1_ADV_CLS_001`: Hopefully, you will find these recommendations conducive to your upcoming endeavor. (建议益处期许)
-  - `T1_INV_CLS_001`: We sincerely look forward to your presence and valuable contribution at the forum. (邀请期盼)
-  - `T1_APO_CLS_001`: Once again, please accept my heartfelt apologies for any inconvenience this change may cause. (致歉重申)
+  - `T1_COM_SEN_003`: 诉求句：以“完全有理由要求”的交涉姿态提出名词化方案与解决期限 (投诉/求助闭环)
+  - `T1_NOT_SEN_006`: 公文号召与报名方式及截止日期收口 (咨询/通知答疑通道)
+  - `T1_ADV_SEN_011`: 尾段索取建议或协助时的合理化铺垫，先给对方一个凭什么麻烦你的理由 (建议益处期许)
+  - `T1_INV_SEN_002`: 虚拟语气热切邀约收口 (邀请期盼与参会致意)
+  - `T1_REC_SEN_004`: 推荐或邀请信双收益收尾：精神收获与情感收获并列
+  - `T1_APO_SEN_003`: 向尊长高礼貌地提出改约或请求 (歉意重申与改约协商)
+  - `T1_REP_SEN_002`: 向教授或上级柔性求教的收口句
 
 ---
 
 ### 主题 B4：小作文真题分类串联复盘
 * **功能定位**：文类归类与考场实战还原。将 11 篇真题范文按同文体并轨通关：
-  1. **建议与推荐类（4篇）**：2011（新生入学准备） $\rightarrow$ 2014（合租生活与当地咨询） $\rightarrow$ 2019（辩题建议） $\rightarrow$ 2020（泰山一日游推荐）
-  2. **通知与倡议类（2篇）**：2013（慈善义卖捐赠） $\rightarrow$ 2015（夏令营志愿者招募）
-  3. **回复与致谢类（2篇）**：2016（答谢并交流翻译） $\rightarrow$ 2017（接受教授邀请并汇报要点）
-  4. **投诉与致歉类（2篇）**：2012（网购词典故障交涉） $\rightarrow$ 2018（突发急性病改约致歉）
+  1. **建议与推荐类（4篇）**：2011（新生入学准备） -> 2014（合租生活与当地咨询） -> 2019（辩题建议） -> 2020（泰山一日游推荐）
+  2. **通知与倡议类（2篇）**：2013（慈善义卖捐赠） -> 2015（夏令营志愿者招募）
+  3. **回复与致谢类（2篇）**：2016（答谢并交流翻译） -> 2017（接受教授邀请并汇报要点）
+  4. **投诉与致歉类（2篇）**：2012（网购词典故障交涉） -> 2018（突发急性病改约致歉）
   5. **邀请与筹备类（1篇）**：2021（行前会议线上邀请）

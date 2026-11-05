@@ -68,7 +68,8 @@ ERROR_CATEGORY_MAP = {
     "3. 主谓一致类": ["#第三人称单数遗漏", "#修饰成分干扰", "#长修饰成分干扰主谓不一致", "#There-Be一致", "#There-Be句型主谓不一致", "#主谓不一致"],
     "4. 从句与引导词类": ["#逗号粘连双句", "#非限制定语从句误用that", "#非限制性定语从句误用that", "#介词后接that从句", "#介词后误接that从句", "#从句内部代词冗余"],
     "5. 非谓语动词类": ["#悬垂分词", "#主被动分词混淆", "#介词to后接原形", "#介词to后误接原形"],
-    "6. 介词与搭配类": ["#不及物动词缺介词", "#生硬汉式硬译", "#介词固定搭配错误", "#动宾搭配不当"]
+    "6. 介词与搭配类": ["#不及物动词缺介词", "#生硬汉式硬译", "#介词固定搭配错误", "#动宾搭配不当"],
+    "7. 数据与事实类": ["#数据单位错位", "#数据事实描述失真", "#数据单位错误"]
 }
 
 def resolve_workspace_file(file_path_str: str) -> Path:
@@ -252,16 +253,16 @@ class DashboardManager:
 
 ## 一、 当前会话启动核心指标
 
-* 📍 **当前所处位置 (Current State)**:  
+* **[当前所处位置 (Current State)]**:  
   尚未开始训练，系统已准备就绪。
 
-* 🎯 **下一步行动指令 (Next Step)**:  
+* **[下一步行动指令 (Next Step)]**:  
   启动【主题 A1】第一段·图表数据定格描述训练，出第一题：动态柱状图显著增长对比定格句。
 
-* ⚠️ **阶段性薄弱点重点盯防 (Grammar Alert)**:  
+* **[阶段性薄弱点重点盯防 (Grammar Alert)]**:  
   1. 谓语动词时态与缺失检查（防止把非谓语当作谓语）
   2. 单数可数名词冠词严谨性（杜绝名词裸奔）
-  3. 长状语/介词短语干扰下的主谓单复数一致
+  3. 考研图表数据单位换算（1亿 = 100 million = 0.1 billion）
 
 ---
 
@@ -269,8 +270,16 @@ class DashboardManager:
 
 ### 主线 A：大作文（Task 2）框架与语料内化
 - [ ] A1.01 `T2_GEN_STR_001`: 动态柱状图显著增长对比定格句
-- [ ] A1.02 `T2_PIE_STR_001`: 饼图绝对优势占比定格句
-- [ ] A1.03 `T2_BAR_STR_001`: 柱状图多主体时间跨度走势句
+- [ ] A1.02 `T2_CHART_SEN_014`: 饼图绝对优势占比定格句
+- [ ] A1.03 `T2_CHART_SEN_006`: 柱状图多主体时间跨度走势句
+
+---
+
+## 三、 待回补错题队列 (Catch-up Queue)
+
+| 题目编号 | 框架坐标 | 挂起时间 | 待纠治核心错误与要点 | 状态 |
+| :---: | :--- | :---: | :--- | :---: |
+| (队列空) | 暂无挂起待回补题目 | - | - | - |
 """
 
     def _generate_initial_notebook(self, date_str):
@@ -302,10 +311,12 @@ class DashboardManager:
 | **4. 从句与引导词类** | `#逗号粘连双句` / `#非限制定语从句误用that` / `#介词后接that从句` | 0 次 | 暂无记录 |
 | **5. 非谓语动词类** | `#悬垂分词` / `#主被动分词混淆` / `#介词to后接原形` | 0 次 | 暂无记录 |
 | **6. 介词与搭配类** | `#不及物动词缺介词` / `#生硬汉式硬译` / `#介词固定搭配错误` | 0 次 | 暂无记录 |
+| **7. 数据与事实类** | `#数据单位错位` / `#数据事实描述失真` | 0 次 | 暂无记录 |
 
 ---
 
 ## 下部：逐题训练实战流水账
+<!-- 每道题在训练结束后自动在下方追加一条完整的记录卡片（直击外脑高级版原文） -->
 """
 
     def read_status(self):
@@ -315,11 +326,11 @@ class DashboardManager:
         total_completed = 0
         weak_points = []
 
-        m_state = re.search(r"\*\s+📍\s+\*\*当前所处位置.*?\*\*:\s*\n\s*(.+?)(?=\n\n|\n\*|$)", text, re.DOTALL)
+        m_state = re.search(r"\*\s*(?:\U0001f4cd\s*)?\*\*\[?当前所处位置.*?\*\*:\s*\n\s*(.+?)(?=\n\n|\n\*|$)", text, re.DOTALL)
         if m_state:
             current_state = m_state.group(1).strip()
 
-        m_next = re.search(r"\*\s+🎯\s+\*\*下一步行动指令.*?\*\*:\s*\n\s*(.+?)(?=\n\n|\n\*|$)", text, re.DOTALL)
+        m_next = re.search(r"\*\s*(?:\U0001f3af\s*)?\*\*\[?下一步行动指令.*?\*\*:\s*\n\s*(.+?)(?=\n\n|\n\*|$)", text, re.DOTALL)
         if m_next:
             next_step = m_next.group(1).strip()
 
@@ -327,7 +338,7 @@ class DashboardManager:
         if m_total:
             total_completed = int(m_total.group(1))
 
-        m_weak = re.search(r"\*\s+⚠️\s+\*\*阶段性薄弱点重点盯防.*?\*\*:\s*\n((?:\s*\d+\..+?\n)+)", text)
+        m_weak = re.search(r"\*\s*(?:\u26a0\ufe0f?\s*)?\*\*\[?阶段性薄弱点重点盯防.*?\*\*:\s*\n((?:\s*\d+\..+?\n)+)", text)
         if m_weak:
             for line in m_weak.group(1).strip().splitlines():
                 sub = re.sub(r"^\s*\d+\.\s*", "", line).strip()
@@ -338,6 +349,22 @@ class DashboardManager:
         checked = len(re.findall(r"- \[x\]", text, re.IGNORECASE))
         unchecked = len(re.findall(r"- \[ \]", text))
 
+        # Catch-up queue
+        catch_up_queue = []
+        m_queue = re.search(r"## 三、\s*待回补错题队列[\s\S]*?\|[^\n]+\|\s*\n\|[^\n]+\|\s*\n([\s\S]+?)(?=\n##|\Z)", text)
+        if m_queue:
+            for row in m_queue.group(1).strip().splitlines():
+                if row.startswith("|") and "(队列空)" not in row and "<!--" not in row:
+                    parts = [p.strip() for p in row.split("|")[1:-1]]
+                    if len(parts) >= 4 and parts[0]:
+                        catch_up_queue.append({
+                            "item_id": parts[0],
+                            "coordinate": parts[1] if len(parts) > 1 else "",
+                            "time": parts[2] if len(parts) > 2 else "",
+                            "diagnosis": parts[3] if len(parts) > 3 else "",
+                            "status": parts[4] if len(parts) > 4 else "待回补",
+                        })
+
         return {
             "current_state": current_state,
             "next_step": next_step,
@@ -345,6 +372,7 @@ class DashboardManager:
             "checked_items": checked,
             "remaining_items": unchecked,
             "weak_points": weak_points,
+            "catch_up_queue": catch_up_queue,
             "dashboard_path": str(self.dashboard_file),
             "notebook_path": str(self.notebook_file),
         }
@@ -359,14 +387,14 @@ class DashboardManager:
         student_answer,
         tags,
         diagnosis,
-        baseline,
         master_version,
+        baseline=None,
+        status="completed",
         current_state=None,
         next_step=None,
         maimemo_info=None,
     ):
         now_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        date_today = datetime.now().strftime("%Y-%m-%d")
 
         # 1. Update progress_dashboard.md
         dash_text = self.dashboard_file.read_text(encoding="utf-8")
@@ -401,18 +429,41 @@ class DashboardManager:
         # Update current state & next step if provided
         if current_state:
             dash_text = re.sub(
-                r"(\*\s+📍\s+\*\*当前所处位置.*?\*\*:\s*\n)\s*.+?(?=\n\n|\n\*|$)",
+                r"(\*\s*(?:\U0001f4cd\s*)?\*\*\[?当前所处位置.*?\*\*:\s*\n)\s*.+?(?=\n\n|\n\*|$)",
                 rf"\g<1>  {current_state}",
                 dash_text,
                 flags=re.DOTALL,
             )
         if next_step:
             dash_text = re.sub(
-                r"(\*\s+🎯\s+\*\*下一步行动指令.*?\*\*:\s*\n)\s*.+?(?=\n\n|\n\*|$)",
+                r"(\*\s*(?:\U0001f3af\s*)?\*\*\[?下一步行动指令.*?\*\*:\s*\n)\s*.+?(?=\n\n|\n\*|$)",
                 rf"\g<1>  {next_step}",
                 dash_text,
                 flags=re.DOTALL,
             )
+
+        # Update Catch-up Queue in progress_dashboard.md
+        if status == "pending_revision" and item_id:
+            queue_pat = r"(## 三、\s*待回补错题队列[\s\S]*?\|[^\n]+\|\s*\n\|[^\n]+\|\s*\n)([\s\S]+?)(?=\n##|\Z)"
+            m_q = re.search(queue_pat, dash_text)
+            if m_q:
+                table_header = m_q.group(1)
+                table_body = m_q.group(2)
+                clean_diag = diagnosis.replace("|", "/")[:35]
+                new_row = f"| {item_id} | {coordinate} | {now_time} | {clean_diag} | 待回补 |\n"
+                comments = re.findall(r"(<!--[\s\S]*?-->\s*\n)", table_body)
+                comment_prefix = "".join(comments)
+                clean_body = re.sub(r"<!--[\s\S]*?-->\s*\n", "", table_body)
+                if "(队列空)" in clean_body:
+                    new_body = comment_prefix + new_row
+                elif item_id not in clean_body:
+                    new_body = comment_prefix + clean_body.strip() + "\n" + new_row
+                else:
+                    new_body = table_body
+                dash_text = re.sub(queue_pat, rf"\g<1>{new_body}", dash_text)
+        elif status == "completed" and item_id:
+            row_item_pat = rf"(\|\s*{re.escape(item_id)}\b[^|]*\|[^|]*\|[^|]*\|[^|]*\|\s*)待回补(\s*\|)"
+            dash_text = re.sub(row_item_pat, r"\g<1>已补齐\2", dash_text)
 
         self.dashboard_file.write_text(dash_text, encoding="utf-8")
 
@@ -443,7 +494,6 @@ class DashboardManager:
                     matched_cat = cat
                     break
             if matched_cat:
-                # Find row in table e.g.: | **1. 谓语结构类** | ... | 0 次 | 暂无记录 |
                 escaped_cat = re.escape(matched_cat)
                 row_pat = rf"(\|\s*\*\*{escaped_cat}\*\*\s*\|[^|]+\|\s*)(\d+)\s*次\s*(\|\s*)([^|]+?)(\s*\|)"
                 m_row = re.search(row_pat, note_text)
@@ -458,9 +508,10 @@ class DashboardManager:
                         note_text,
                     )
 
-        # Append card to bottom
+        # Append card to bottom (NO BASELINE, ONLY MASTER VERSION)
+        status_badge = " [待回补]" if status == "pending_revision" else ""
         card = f"""
-### 题目流水账 #{new_count:03d} | [{theme}] {coordinate}
+### 题目流水账 #{new_count:03d} | [{theme}] {coordinate}{status_badge}
 
 - **训练时间**：{now_time}
 - **框架坐标**：`{coordinate}`
@@ -472,9 +523,7 @@ class DashboardManager:
 - **语法诊断与标签**：
   - **标签**：`{'` `'.join(tag_list)}`
   - **诊断摘要**：{diagnosis}
-- **降维保底版 (Ability Baseline)**：
-  > {baseline}
-- **外脑终版高分句 (Master Alignment)**：
+- **外脑高级版原文 (Master Alignment)**：
   > {master_version}
 """
         if maimemo_info:
@@ -495,6 +544,7 @@ class DashboardManager:
             "status": "success",
             "entry_index": new_count,
             "item_id": item_id,
+            "revision_status": status,
             "dashboard_updated": True,
             "notebook_updated": True,
         }
@@ -767,7 +817,7 @@ def cmd_doctor(dash_mgr, repo, args):
         print("\n[墨墨背单词开放平台凭据 (MAIMEMO_SPELLING_TOKEN)]")
         if not memo_diag.get("configured"):
             print("• 凭据状态: [WARN] 未配置 MAIMEMO_SPELLING_TOKEN")
-            print("  - 说明: 本地训练、分层诊断、保底讲解与错题归档完全不受影响。")
+            print("  - 说明: 本地训练、分层诊断、高级版对齐与错题归档完全不受影响。")
             print("  - 如需在拼写错误时自动推送至墨墨 App 复习，请配置环境变量 MAIMEMO_SPELLING_TOKEN。")
         else:
             print(f"• 凭据来源: {memo_diag.get('token_source')} ({memo_diag.get('token_masked')})")
@@ -853,6 +903,104 @@ def cmd_maimemo_sync(args):
         sys.exit(1)
 
 
+def cmd_get_exercise(args):
+    curated_path = Path(__file__).resolve().parent.parent / "references" / "curated_exercises.json"
+    if not curated_path.exists():
+        err = f"题库文件不存在: {curated_path}"
+        if getattr(args, "json", False):
+            print(json.dumps({"status": "error", "message": err}, ensure_ascii=False))
+        else:
+            print(f"[ERROR] {err}", file=sys.stderr)
+        sys.exit(1)
+
+    with open(curated_path, "r", encoding="utf-8") as f:
+        exercises = json.load(f)
+
+    target = None
+    if getattr(args, "item_id", None):
+        target = exercises.get(args.item_id)
+    elif getattr(args, "theme", None):
+        theme_prefix = args.theme.upper()
+        idx = getattr(args, "index", 1)
+        expected_id = f"{theme_prefix}.{idx:02d}"
+        target = exercises.get(expected_id)
+        if not target:
+            theme_items = [v for k, v in sorted(exercises.items()) if v.get("theme", "").upper() == theme_prefix]
+            if theme_items and 1 <= idx <= len(theme_items):
+                target = theme_items[idx - 1]
+
+    if not target:
+        err = f"未找到指定题目 (item_id={getattr(args, 'item_id', None)}, theme={getattr(args, 'theme', None)}, index={getattr(args, 'index', None)})"
+        if getattr(args, "json", False):
+            print(json.dumps({"status": "error", "message": err}, ensure_ascii=False))
+        else:
+            print(f"[ERROR] {err}", file=sys.stderr)
+        sys.exit(1)
+
+    if getattr(args, "json", False):
+        print(json.dumps(target, ensure_ascii=False, indent=2))
+        return
+
+    # Clean markdown exercise card (Zero emoji, NO baseline)
+    card = f"""### [训练题目: {target.get('coordinate')}]
+
+- **[框架坐标]**: `{target.get('coordinate')}`
+- **[外脑溯源]**: `{target.get('source_id')}` ({target.get('past_paper')})
+- **[待译汉语句子]**:
+  > "{target.get('chinese')}"
+- **[考研防坑提示]**:
+  {target.get('pitfall_alert')}
+- **[脚手架提示]**:
+  {target.get('scaffold')}
+
+[输入指引]: 请在下方输入你的独立英语翻译（可在输入框直接文字输入，或在纸面/平板上手写后拍照发送）。
+"""
+    print(card)
+
+
+def cmd_prepare_image(args):
+    try:
+        from PIL import Image, ImageOps
+    except ImportError:
+        print(json.dumps({
+            "status": "error",
+            "message": "PIL (Pillow) 未安装，无法执行图片预处理"
+        }, ensure_ascii=False))
+        sys.exit(1)
+
+    img_path = resolve_workspace_file(args.image)
+    if not img_path or not img_path.exists():
+        print(json.dumps({
+            "status": "error",
+            "message": f"找不到图片文件: {args.image}"
+        }, ensure_ascii=False))
+        sys.exit(1)
+
+    try:
+        im = Image.open(img_path)
+        im = ImageOps.exif_transpose(im)
+        if getattr(args, "rotate", 0):
+            im = im.rotate(-args.rotate, expand=True)
+
+        import tempfile
+        out_p = Path(args.out) if getattr(args, "out", None) else Path(tempfile.gettempdir()) / "kaoyan_student_answer.jpg"
+        im.save(out_p, quality=92)
+        w, h = im.size
+        print(json.dumps({
+            "status": "success",
+            "processed_path": str(out_p),
+            "original_path": str(img_path),
+            "size": [w, h],
+            "suggested_prompt": "请逐词转录学员手写英文句子。注意标点符号、大小写、可数名词单复数拼写与具体数字。"
+        }, ensure_ascii=False, indent=2))
+    except Exception as e:
+        print(json.dumps({
+            "status": "error",
+            "message": f"处理图片失败: {e}"
+        }, ensure_ascii=False))
+        sys.exit(1)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="考研英语二外脑资产内化训练系统 CLI"
@@ -878,6 +1026,19 @@ def main():
     p_get.add_argument("--index", type=int, default=1, help="条目序号 (从1开始)")
     p_get.add_argument("--item-id", help="条目ID (优先根据ID查找)")
 
+    # 4.1 get-exercise (一键完整出题卡片，无 emoji，含题干、脚手架、考研防坑、终版范文)
+    p_ex = subparsers.add_parser("get-exercise", help="提取指定题目的完整出题卡片 (无 emoji，含题干、脚手架、考研防坑提示、高级版范文)")
+    p_ex.add_argument("--item-id", help="题目编号 (如 A1.01, B2.01)")
+    p_ex.add_argument("--theme", help="主题代码 (A1..B4)")
+    p_ex.add_argument("--index", type=int, default=1, help="主题内序号 (从1开始)")
+    p_ex.add_argument("--json", action="store_true", help="以纯 JSON 格式输出")
+
+    # 4.2 prepare-image (原生预处理学员手写答题图片)
+    p_img = subparsers.add_parser("prepare-image", help="预处理学员手写答题图片 (依据 EXIF 自动扶正并生成优化临时图)")
+    p_img.add_argument("--image", required=True, help="原始手写图片文件路径")
+    p_img.add_argument("--rotate", type=int, default=0, help="额外顺时针旋转角度 (如 90, 180, 270, -90)")
+    p_img.add_argument("--out", help="输出图片文件路径 (默认为临时目录 kaoyan_student_answer.jpg)")
+
     # 5. record
     p_rec = subparsers.add_parser("record", help="记录一道题的实战输出与批改结果")
     p_rec.add_argument("--file", help="实战记录结算 JSON 文件路径 (支持绝对路径或相对工作区路径，如 /var/minis/workspace/kaoyan/settle.json)")
@@ -891,8 +1052,9 @@ def main():
     p_rec.add_argument("--student-answer", help="学员原始英文作答")
     p_rec.add_argument("--tags", help="逗号分隔的错误标签")
     p_rec.add_argument("--diagnosis", help="诊断分析摘要")
-    p_rec.add_argument("--baseline", help="降维保底版句子")
+    p_rec.add_argument("--baseline", default=None, help="[可选] 降维保底版句子")
     p_rec.add_argument("--master-version", help="外脑终版高分句")
+    p_rec.add_argument("--status", choices=["completed", "pending_revision"], default=None, help="批改状态 (completed: 已订正/完全正确, pending_revision: 待回补)")
     p_rec.add_argument("--current-state", help="更新当前所处位置")
     p_rec.add_argument("--next-step", help="更新下一步行动指令")
     p_rec.add_argument("--misspelled-words", help="初稿拼错单词，格式如 'acommodate:accommodate' 或逗号分隔多组")
@@ -964,6 +1126,12 @@ def main():
 
         print(json.dumps(target, ensure_ascii=False, indent=2))
 
+    elif args.command == "get-exercise":
+        cmd_get_exercise(args)
+
+    elif args.command == "prepare-image":
+        cmd_prepare_image(args)
+
     elif args.command == "record":
         file_payload = {}
         if getattr(args, "file", None):
@@ -992,8 +1160,9 @@ def main():
             tags = str(raw_tags or "")
 
         diagnosis = args.diagnosis or file_payload.get("diagnosis")
-        baseline = args.baseline or file_payload.get("baseline")
+        baseline = getattr(args, "baseline", None) or file_payload.get("baseline")
         master_version = args.master_version or file_payload.get("master_version")
+        status = getattr(args, "status", None) or file_payload.get("status", "completed")
         current_state = args.current_state or file_payload.get("current_state")
         next_step = args.next_step or file_payload.get("next_step")
 
@@ -1007,7 +1176,6 @@ def main():
             "student_answer": student_answer,
             "tags": tags,
             "diagnosis": diagnosis,
-            "baseline": baseline,
             "master_version": master_version,
         }
         missing = [k for k, v in required_map.items() if not v]
@@ -1104,8 +1272,9 @@ def main():
             student_answer=student_answer,
             tags=tags,
             diagnosis=diagnosis,
-            baseline=baseline,
             master_version=master_version,
+            baseline=baseline,
+            status=status,
             current_state=current_state,
             next_step=next_step,
             maimemo_info=maimemo_info,

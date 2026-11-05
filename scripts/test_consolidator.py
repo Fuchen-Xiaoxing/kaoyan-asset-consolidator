@@ -204,7 +204,6 @@ class TestConsolidator(unittest.TestCase):
             "--student-answer", "The library is expected to acommodate students.",
             "--tags", "#拼写错误",
             "--diagnosis", "acommodate 拼写错误",
-            "--baseline", "The library accommodates students.",
             "--master-version", "The library accommodates students.",
             "--misspelled-words", "acommodate:accommodate",
             "--mock"
@@ -215,6 +214,78 @@ class TestConsolidator(unittest.TestCase):
         self.assertIn("maimemo_sync", data)
         self.assertEqual(data["maimemo_sync"]["status"], "success")
         self.assertEqual(data["maimemo_sync"]["synced_words"], ["accommodate"])
+
+    def test_get_exercise_cli(self):
+        # Test by item-id
+        cmd = [sys.executable, str(SCRIPT_DIR / "consolidator.py"), "get-exercise", "--item-id", "A1.01"]
+        res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", check=True)
+        self.assertIn("动态柱状图显著增长对比", res.stdout)
+        self.assertIn("T2_GEN_STR_001", res.stdout)
+        self.assertNotIn("保底版", res.stdout)
+
+        # Test by theme and index
+        cmd = [sys.executable, str(SCRIPT_DIR / "consolidator.py"), "get-exercise", "--theme", "A1", "--index", "2", "--json"]
+        res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", check=True)
+        data = json.loads(res.stdout)
+        self.assertEqual(data["item_id"], "A1.02")
+        self.assertEqual(data["source_id"], "T2_CHART_SEN_014")
+
+    def test_prepare_image_cli(self):
+        from PIL import Image
+        t_img = Path(self.test_dir) / "sample_hw.jpg"
+        Image.new("RGB", (120, 240), color="white").save(t_img)
+
+        cmd = [sys.executable, str(SCRIPT_DIR / "consolidator.py"), "prepare-image", "--image", str(t_img), "--rotate", "90"]
+        res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", check=True)
+        data = json.loads(res.stdout)
+        self.assertEqual(data["status"], "success")
+        self.assertTrue(Path(data["processed_path"]).exists())
+        self.assertEqual(data["size"], [240, 120])
+
+    def test_record_pending_revision_and_catchup_queue(self):
+        """测试冲刺模式下将题目挂起进入待回补错题队列。"""
+        res = self.dash_mgr.record_practice_result(
+            theme="A1",
+            item_id="A1.01",
+            coordinate="大作文 > 第一段：图表数据定格描述 > 动态柱状图显著增长对比",
+            source="T2_GEN_STR_001",
+            chinese="正如柱状图清晰所示，手机用户激增。",
+            student_answer="As is show, mobile user increase.",
+            tags="#数据单位错位,#可数单数裸奔",
+            diagnosis="1. show应为shown；2. 单位换算失真",
+            master_version="As is distinctly illustrated in the chart, mobile-phone subscriptions surged.",
+            status="pending_revision",
+            current_state="完成 A1.01 初稿，学员选择冲刺下一题，挂起待回补。",
+            next_step="推进 A1.02 饼图极值定格句。"
+        )
+        self.assertEqual(res["status"], "success")
+        self.assertEqual(res["revision_status"], "pending_revision")
+
+        # Verify catch_up_queue in read_status
+        status = self.dash_mgr.read_status()
+        self.assertEqual(len(status["catch_up_queue"]), 1)
+        self.assertEqual(status["catch_up_queue"][0]["item_id"], "A1.01")
+        self.assertEqual(status["catch_up_queue"][0]["status"], "待回补")
+
+        # Verify notebook card has [待回补] and NO baseline
+        note_text = self.dash_mgr.notebook_file.read_text(encoding="utf-8")
+        self.assertIn("[待回补]", note_text)
+        self.assertNotIn("降维保底版", note_text)
+        self.assertIn("外脑高级版原文", note_text)
+
+    def test_zero_emoji_enforcement(self):
+        import re
+        emoji_pattern = re.compile(r"[\U00010000-\U0010ffff]|[\u2600-\u27bf]")
+
+        # 1. get-exercise output
+        cmd = [sys.executable, str(SCRIPT_DIR / "consolidator.py"), "get-exercise", "--item-id", "A1.01"]
+        res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", check=True)
+        self.assertEqual(len(emoji_pattern.findall(res.stdout)), 0)
+
+        # 2. doctor output
+        cmd = [sys.executable, str(SCRIPT_DIR / "consolidator.py"), "doctor", "--mock"]
+        res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", check=True)
+        self.assertEqual(len(emoji_pattern.findall(res.stdout)), 0)
 
 
 if __name__ == "__main__":

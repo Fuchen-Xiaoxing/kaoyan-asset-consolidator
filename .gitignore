@@ -19,3 +19,9 @@ env/
 *~
 .DS_Store
 Thumbs.db
+
+# Private session transcripts and temporary scratch files
+_-d2c33bbe/
+scratch/
+*.jsonl
+

@@ -1,0 +1,723 @@
+{
+  "A1.01": {
+    "item_id": "A1.01",
+    "theme": "A1",
+    "coordinate": "大作文 > 第一段：图表数据定格描述 > 动态柱状图显著增长对比",
+    "source_id": "T2_GEN_STR_001",
+    "past_paper": "2010英二",
+    "chinese": "正如柱状图清晰所示，发展中国家的手机用户数量从 2000 年的约 4 亿大幅激增至 2008 年的近 40 亿，而发达国家的这一数字则增长较为缓慢，稳定在约 10 亿。",
+    "pitfall_alert": "【考研数据防坑】：注意中文“亿”的单位换算（1亿 = 100 million = 0.1 billion），切勿直译为 million 导致数据缩小100倍；同时注意 countries 复数与 those in 代词呼应。",
+    "scaffold": "句型建议：As is distinctly illustrated in the chart, [主体A] witnessed a dramatic surge in..., from... to..., while [主体B] experienced a rather slow increase and stayed at...\n核心语素：surge dramatically from... to...（大幅激增）；experience a rather slow increase（增长缓慢）；stay at about...（稳定在）。",
+    "master_version": "As is distinctly illustrated in the chart, mobile-phone subscriptions in developing countries surged dramatically from about 0.4 billion in 2000 to nearly 4 billion in 2008, while those in developed countries experienced a rather slow increase and stayed at about 1 billion.",
+    "upgrade_notes": [
+      "主语名词化：采用 mobile-phone subscriptions 替代平面的 mobile phone users，语域专业度显著提升。",
+      "动词张力：以 surged dramatically 承载爆发式增量，极值还原精准到位。",
+      "代词平衡对称：后半句运用 those in developed countries 对称呼应复数 subscriptions，形成紧凑对照。"
+    ]
+  },
+  "A1.02": {
+    "item_id": "A1.02",
+    "theme": "A1",
+    "coordinate": "大作文 > 第一段：图表数据定格描述 > 饼图极值与并列等值定格",
+    "source_id": "T2_CHART_SEN_014",
+    "past_paper": "2015英二",
+    "chinese": "正如饼图清晰所示，新年礼物在春节消费中占据了最大份额，达到 40%，而交通与聚餐聚会则各占约 20%。",
+    "pitfall_alert": "【考研数据防坑】：注意极值动词与介词搭配 account for the largest share of... at 40%；同时注意并列成分 each make up 中 each 作同位语时谓语动词用复数 make。",
+    "scaffold": "句型建议：As is distinctly illustrated in the [Chart Type], [Item A] accounts for the largest share of [Metric], at [Percentage 1], while [Item B] and [Item C] each make up about [Percentage 2].\n核心语素：account for the largest share of...（占据最大份额）；make up about...（占比约）。",
+    "master_version": "As is distinctly illustrated in the pie chart, New Year gifts account for the largest share of festival spending, at 40%, while transport and gatherings each make up about 20%.",
+    "upgrade_notes": [
+      "极值与并列双收束：一句之内同时定格第一大极值与两个并列次要项，信息密度极高。",
+      "介词定值：使用 at 40% 快速锚定数值，避免拖沓系动词。",
+      "同位语精准平衡：transport and gatherings each make up 句型干净利落。"
+    ]
+  },
+  "A1.03": {
+    "item_id": "A1.03",
+    "theme": "A1",
+    "coordinate": "大作文 > 第一段：图表数据定格描述 > 柱状图前缓后急多阶段走势",
+    "source_id": "T2_CHART_SEN_006",
+    "past_paper": "2013英二",
+    "chinese": "正如柱状图清晰所示，大学兼职学生比例在大一为 67.77%，大二和大三分别攀升至 71.13% 和 71.93%，随后在大四大幅飙升至 88.24%。",
+    "pitfall_alert": "【考研语法防坑】：时间状语必须使用 among freshmen / in the sophomore and junior years / in the senior year，严禁写成 in freshmen 或 fourthed year。",
+    "scaffold": "句型建议：As is distinctly illustrated in the chart, [Metric] climbed from [Data 1] among [Group 1] to [Data 2] and [Data 3] in [Stage 2], before surging to [Data 4] in [Stage 3].\n核心语素：climb from... to...（稳步爬升）；before surging to...（随后突变飙升）。",
+    "master_version": "As is distinctly illustrated in the chart, the percentage of university students holding a part-time job climbed from 67.77% among freshmen to 71.13% and 71.93% in the sophomore and junior years, before surging to 88.24% in the senior year.",
+    "upgrade_notes": [
+      "双节奏复合走势：以 climbed 立稳步主线，以 before surging to 点亮突变极值，层次分明。",
+      "多阶段压缩合并：巧妙压缩中间两组并列数据，句式毫不臃肿。",
+      "非谓语分词定性：holding a part-time job 作后置定语紧扣主体。"
+    ]
+  },
+  "A1.04": {
+    "item_id": "A1.04",
+    "theme": "A1",
+    "coordinate": "大作文 > 第一段：图表定格 > 2010手机用户走势真题首段",
+    "source_id": "2010真题首段",
+    "past_paper": "2010英二",
+    "chinese": "正如柱状图清晰所示，发展中国家的手机用户数量从 2000 年的约 4 亿激增至 2008 年的近 40 亿，而发达国家的用户数量增长较为缓慢，稳定在约 10 亿。",
+    "pitfall_alert": "【考研高分规范】：整段回译需确保时态统一为过去时（surged, stayed），载体定格词需加定冠词（in the chart）。",
+    "scaffold": "句型建议：As is distinctly illustrated in the chart, [Entity A] witnessed/surged..., while [Entity B]...\n核心语素：mobile-phone subscriptions; surged dramatically; stayed at about 1 billion.",
+    "master_version": "As is distinctly illustrated in the chart, mobile-phone subscriptions in developing countries surged dramatically from about 0.4 billion in 2000 to nearly 4 billion in 2008, while those in developed countries experienced a rather slow increase and stayed at about 1 billion.",
+    "upgrade_notes": [
+      "四要素一次还原：载体、双主体、周期与极值一气呵成。",
+      "对称结构：前半句主动动词句与后半句 while 引导对比句形成严整张力。"
+    ]
+  },
+  "A1.05": {
+    "item_id": "A1.05",
+    "theme": "A1",
+    "coordinate": "大作文 > 第一段：图表定格 > 2011国内轿车市场份额消长真题首段",
+    "source_id": "2011真题首段",
+    "past_paper": "2011英二",
+    "chinese": "正如柱状图清晰所示，国内品牌轿车的市场份额从 2008 年的约 25% 飙升至 2009 年的 30% 以上，而日本和美国品牌的份额则略有下降，分别收缩至约 20% 和 15%。",
+    "pitfall_alert": "【考研语法防坑】：注意分别分别收缩至用 respectively，且注意单位与介词搭配 contracted to about 20% and 15% respectively。",
+    "scaffold": "句型建议：As is distinctly illustrated in the chart, the market share of [A] surged from... to..., whereas those of [B] and [C] declined slightly, contracting to... respectively.\n核心语素：market share of domestic cars; surged to above 30%; contracted to... respectively.",
+    "master_version": "As is distinctly illustrated in the chart, the market share of domestic cars surged from about 25% in 2008 to above 30% in 2009, whereas those of Japanese and American brands declined slightly, contracting to about 20% and 15% respectively.",
+    "upgrade_notes": [
+      "分词伴随状语：contracting to... respectively 精炼交代多方并列结果。",
+      "对比连词切换：使用 whereas 替代平淡的 but，凸显学术语域。"
+    ]
+  },
+  "A1.06": {
+    "item_id": "A1.06",
+    "theme": "A1",
+    "coordinate": "大作文 > 第一段：图表定格 > 2012员工工作满意度落差真题首段",
+    "source_id": "2012真题首段",
+    "past_paper": "2012英二",
+    "chinese": "正如表格清晰所示，某公司员工的工作满意度因年龄而差异显著：41岁至50岁的员工满意度最高，达到40%，而40岁以下的员工对工作不满意的比例则高达约60%。",
+    "pitfall_alert": "【考研格式防坑】：表格题载体必须写 in the table（严禁写 in the chart）；注意 differ sharply in... by age 的动宾介词搭配。",
+    "scaffold": "句型建议：As is distinctly illustrated in the table, [Entity] differ sharply in [Metric] by [Factor]. Those aged [X] are the most satisfied, at [P1], while [Group Y] express dissatisfaction, reaching [P2].\n核心语素：differ sharply in job satisfaction; aged 41 to 50; dissatisfied with their jobs.",
+    "master_version": "As is distinctly illustrated in the table, a company's staff differ sharply in job satisfaction by age. Those aged 41 to 50 are the most satisfied, at 40%, whereas about 64% of employees under 40 feel dissatisfied with their work.",
+    "upgrade_notes": [
+      "总分结构破题：首句用 differ sharply by age 一语定性，次句迅速砸出极值落差。",
+      "载体严密匹配：精准选用 in the table 杜绝阅卷常识性扣分。"
+    ]
+  },
+  "A1.07": {
+    "item_id": "A1.07",
+    "theme": "A1",
+    "coordinate": "大作文 > 第一段：图表定格 > 2013高校兼职情况真题首段",
+    "source_id": "2013真题首段",
+    "past_paper": "2013英二",
+    "chinese": "正如柱状图清晰所示，大学兼职学生比例从大一的 67.77% 稳步上升至大二和大三的 71.13% 与 71.93%，并在大四激增至 88.24%。",
+    "pitfall_alert": "【考研语法防坑】：注意 holding a part-time job 作后置定语修饰 students，主语是 percentage，谓语用 climbed 单数。",
+    "scaffold": "句型建议：As is distinctly illustrated in the chart, the percentage of students holding... climbed from... to..., before surging to... in the senior year.\n核心语素：percentage of university students; climbed from... to...; before surging to.",
+    "master_version": "As is distinctly illustrated in the chart, the percentage of university students holding a part-time job climbed from 67.77% among freshmen to 71.13% and 71.93% in the sophomore and junior years, before surging to 88.24% in the senior year.",
+    "upgrade_notes": [
+      "双动词节奏交错：climbed 与 before surging to 展现走势加速度变化。",
+      "年级术语规范：freshmen / sophomore / junior / senior 四年级表达标准。"
+    ]
+  },
+  "A1.08": {
+    "item_id": "A1.08",
+    "theme": "A1",
+    "coordinate": "大作文 > 第一段：图表定格 > 2014城乡人口结构变迁真题首段",
+    "source_id": "2014真题首段",
+    "past_paper": "2014英二",
+    "chinese": "正如柱状图清晰所示，城镇人口从 1990 年的 3 亿大幅激增至 2010 年的近 7 亿，而农村人口同期则稳步下降，稳定在约 6.7 亿。",
+    "pitfall_alert": "【考研单位防坑】：注意 3 亿 = 300 million（或 0.3 billion）；7 亿 = 700 million；农村与城镇人口对比用 urban population 与 rural population。",
+    "scaffold": "句型建议：As is distinctly illustrated in the chart, the urban population surged dramatically from... to..., while the rural population dropped steadily over the same period, resting at...\n核心语素：urban population; surged dramatically; dropped steadily over the same period.",
+    "master_version": "As is distinctly illustrated in the chart, the urban population surged dramatically from 300 million in 1990 to 458 million in 2000, and further to nearly 670 million in 2010, while the rural population decreased steadily from about 800 million to roughly 670 million.",
+    "upgrade_notes": [
+      "三阶段递进句型：surged from... to... and further to... 还原长周期跨度数据。",
+      "对比呼应：while 从句使用 decreased steadily 平衡前半段激增走势。"
+    ]
+  },
+  "A1.09": {
+    "item_id": "A1.09",
+    "theme": "A1",
+    "coordinate": "大作文 > 第一段：图表定格 > 2015春节消费占比真题首段",
+    "source_id": "2015真题首段",
+    "past_paper": "2015英二",
+    "chinese": "正如饼图清晰所示，新年礼物在春节假期消费中占据了最大比重，达到 40%，而交通费用和聚餐聚会则各占约 20%。",
+    "pitfall_alert": "【考研载体防坑】：饼图必须写 in the pie chart；注意 festival spending 整体搭配。",
+    "scaffold": "句型建议：As is distinctly illustrated in the pie chart, [Item A] accounts for the largest share of..., at 40%, while [B] and [C] each make up about 20%.\n核心语素：pie chart; account for the largest share; each make up.",
+    "master_version": "As is distinctly illustrated in the pie chart, New Year gifts account for the largest share of festival spending, at 40%, while transport and gatherings each make up about 20%.",
+    "upgrade_notes": [
+      "极值与次要项一次到位：符合真题高分范文精炼表达准则。"
+    ]
+  },
+  "A1.10": {
+    "item_id": "A1.10",
+    "theme": "A1",
+    "coordinate": "大作文 > 第一段：图表定格 > 2016高校学生旅游目的真题首段",
+    "source_id": "2016真题首段",
+    "past_paper": "2016英二",
+    "chinese": "正如柱状图清晰所示，欣赏风景在大学生旅游目的中高居榜首，占比达到 37%，缓解压力和结交朋友紧随其后，分别占 33% 和 16%。",
+    "pitfall_alert": "【考研搭配防坑】：高居榜首用 accounts for the largest proportion / tops the list；紧随其后用 closely followed by... at... respectively。",
+    "scaffold": "句型建议：As is distinctly illustrated in the chart, [Activity A] accounts for the largest proportion, at 37%, closely followed by [Activity B] and [Activity C], which make up 33% and 16% respectively.\n核心语素：sightseeing; relieving stress; making friends; closely followed by.",
+    "master_version": "As is distinctly illustrated in the chart, sightseeing accounts for the largest proportion of students' travel purposes, at 37%, closely followed by relieving pressure and making friends, which make up 33% and 16% respectively.",
+    "upgrade_notes": [
+      "非谓语分词短语衔接：closely followed by 避免两个并列分句的单调拼接。",
+      "关系代词引导定格：which make up... respectively 结构严整。"
+    ]
+  },
+  "A1.11": {
+    "item_id": "A1.11",
+    "theme": "A1",
+    "coordinate": "大作文 > 第一段：图表定格 > 2017博物馆数量与人数双增长真题首段",
+    "source_id": "2017真题首段",
+    "past_paper": "2017英二",
+    "chinese": "正如柱状图清晰所示，中国的博物馆数量从 2013 年的 4165 家稳步增至两年前的 4692 家，而参观人数则增长更为迅猛，从 6.37 亿人次激增至 7.81 亿人次。",
+    "pitfall_alert": "【考研双主体防坑】：注意区分 museum 数量（number，可数）与 visitors 参观量（attendance / number of visitors）；单位亿用 million（637 million / 781 million）。",
+    "scaffold": "句型建议：As is distinctly illustrated in the chart, the number of [Entity A] rose steadily from... to..., while [Metric B] surged even more rapidly, climbing from... to...\n核心语素：rose steadily; surged even more rapidly; climbed from... to...",
+    "master_version": "As is distinctly illustrated in the chart, the number of museums in China rose steadily from 4,165 in 2013 to 4,692 two years later, while attendance grew even faster, climbing from 637 million to roughly 781 million.",
+    "upgrade_notes": [
+      "双主体走势分层：前半句稳步增长（rose steadily）与后半句加速狂飙（grew even faster, climbing from）形成鲜明节奏落差。"
+    ]
+  },
+  "A2.01": {
+    "item_id": "A2.01",
+    "theme": "A2",
+    "coordinate": "大作文 > 第二段：因果机制推演 > 因果总起与定维骨架",
+    "source_id": "T2_GEN_SEN_001",
+    "past_paper": "通用高分范文",
+    "chinese": "这一急剧增长绝非偶然，而是植根于中国经济的稳健扩张以及居民消费观念的深刻转变两大核心维度。",
+    "pitfall_alert": "【考研逻辑防坑】：避免空转套话“A number of factors contribute to...”；必须在首句直接给出归因维度（经济发展 + 观念转变）。",
+    "scaffold": "句型建议：This [Trend Noun] is by no means accidental, but deeply rooted in two primary drivers: [Factor A] and [Factor B].\n核心语素：by no means accidental（绝非偶然）；deeply rooted in（植根于）；primary drivers（主要驱动因素）。",
+    "master_version": "This sharp increase is by no means accidental, but deeply rooted in two primary drivers: the steady expansion of the Chinese economy and a profound shift in consumer mindset.",
+    "upgrade_notes": [
+      "替代平庸模板：用 is by no means accidental, but deeply rooted in 替代俗套的 There are many reasons。",
+      "名片式定维：冒号后直接列举两大支柱动因，阅卷老师一眼抓住逻辑骨架。"
+    ]
+  },
+  "A2.02": {
+    "item_id": "A2.02",
+    "theme": "A2",
+    "coordinate": "大作文 > 第二段：场景语素组装 > 个人发展与成长场景",
+    "source_id": "M_JOB_004, M_SCENE_042",
+    "past_paper": "2013/2012英二",
+    "chinese": "兼职工作使大学生能够将理论知识转化为实践技能，在积累宝贵社会经验的同时有效缓解家庭的经济负担。",
+    "pitfall_alert": "【考研语法防坑】：enable sb. to do 搭配；注意 while doing 伴随状语保持主干清爽。",
+    "scaffold": "句型建议：Part-time jobs enable students to translate theoretical knowledge into practical skills, effectively easing the financial burden on families while accumulating valuable social experience.\n核心语素：translate theoretical knowledge into practical skills; ease the financial burden; accumulate valuable social experience.",
+    "master_version": "Taking part-time jobs enables college students to translate theoretical knowledge into practical skills, effectively easing their families' financial burden while accumulating invaluable social experience.",
+    "upgrade_notes": [
+      "动宾精准度：translate... into... / ease the financial burden 均为考研核心高分动宾语素。",
+      "分词伴随高效承重：easing... while accumulating... 双分词驱动结果。"
+    ]
+  },
+  "A2.03": {
+    "item_id": "A2.03",
+    "theme": "A2",
+    "coordinate": "大作文 > 第二段：场景语素组装 > 消费经济与生活场景",
+    "source_id": "M_SCENE_013, M_SCENE_091",
+    "past_paper": "2011/2015英二",
+    "chinese": "工业化的大规模生产极大地降低了生产成本，使普通家庭能够承受优质商品，从而刺激了国内消费需求的持续繁荣。",
+    "pitfall_alert": "【考研句式防坑】：避免写 Chinglish 句子 make goods cheap；使用 render + 宾语 + 形容词结构（render goods financially accessible）。",
+    "scaffold": "句型建议：Industrial mass manufacturing has drastically brought down production costs, rendering [Goods] financially accessible to average households, thereby spurring [Outcome].\n核心语素：industrial mass manufacturing; bring down production costs; financially accessible; spur domestic consumption.",
+    "master_version": "Industrial mass manufacturing has drastically brought down overhead costs, rendering quality products financially accessible to ordinary households and thereby spurring sustained domestic consumption.",
+    "upgrade_notes": [
+      "外刊级表达：render quality products financially accessible 远胜 make products cheap。",
+      "因果链闭环：drastically brought down costs -> financially accessible -> spurring consumption。"
+    ]
+  },
+  "A2.04": {
+    "item_id": "A2.04",
+    "theme": "A2",
+    "coordinate": "大作文 > 第二段：场景语素组装 > 文化传承与精神生活场景",
+    "source_id": "M_SCENE_093, M_SCENE_101",
+    "past_paper": "2017英二",
+    "chinese": "随着物质生活水平的提高，人们不再仅仅满足于基本的衣食温饱，而是将更多的时间与金钱投入到精神追求和文化体验中。",
+    "pitfall_alert": "【考研时态与结构防坑】：not merely... but rather... 对照结构；be satisfied with 基本生存需求。",
+    "scaffold": "句型建议：With living standards climbing, citizens are no longer merely content with basic material needs, but rather channel substantial time and financial resources into cultural enrichment.\n核心语素：content with basic material needs; channel... into...; cultural enrichment.",
+    "master_version": "With living standards steadily rising, people are no longer merely content with basic physical subsistence, but rather channel substantial time and financial resources into cultural enrichment and spiritual pursuits.",
+    "upgrade_notes": [
+      "观念转变今昔对比：no longer merely content with... but rather channel... 逻辑鲜明。",
+      "高阶语素：physical subsistence（物质温饱）/ cultural enrichment（文化滋养）。"
+    ]
+  },
+  "A2.05": {
+    "item_id": "A2.05",
+    "theme": "A2",
+    "coordinate": "大作文 > 第二段：场景语素组装 > 科技互联网与创新场景",
+    "source_id": "M_SCENE_015, M_SCENE_025",
+    "past_paper": "2010/2016英二",
+    "chinese": "移动通信网络与智能手机的全面普及打破了信息壁垒，为边远地区的居民接入数字世界创造了空前便利的条件。",
+    "pitfall_alert": "【考研搭配防坑】：打破信息壁垒用 dismantle/break down information barriers；接入数字世界用 grant access to the digital world。",
+    "scaffold": "句型建议：The ubiquitous coverage of [Tech] has dismantled information barriers, granting residents in remote regions unprecedented access to the digital world.\n核心语素：ubiquitous coverage; dismantle information barriers; grant unprecedented access to.",
+    "master_version": "The ubiquitous expansion of mobile networks has dismantled information barriers, granting residents even in remote areas unprecedented access to the digital world.",
+    "upgrade_notes": [
+      "分词短语作结果状语：granting... unprecedented access to... 紧凑有力。",
+      "高光词汇：ubiquitous expansion / dismantled information barriers。"
+    ]
+  },
+  "A2.06": {
+    "item_id": "A2.06",
+    "theme": "A2",
+    "coordinate": "大作文 > 第二段：场景语素组装 > 公共治理与社会责任场景",
+    "source_id": "M_SCENE_072, M_SCENE_120",
+    "past_paper": "2014/2017英二",
+    "chinese": "政府持续加大对公共基础设施的财政投入，显著改善了城市公共服务体系，从而为大规模人口吸纳奠定了坚实基础。",
+    "pitfall_alert": "【考研动宾防坑】：加大财政投入用 increase fiscal investment in；奠定坚实基础用 lay a solid foundation for。",
+    "scaffold": "句型建议：Sustained government investment in public infrastructure has substantially upgraded municipal services, thereby laying a solid groundwork for large-scale demographic absorption.\n核心语素：sustained government investment; upgrade municipal services; lay a solid groundwork for.",
+    "master_version": "Sustained fiscal investment in public infrastructure has markedly upgraded public service systems, thereby laying a solid foundation for accommodating the expanding urban population.",
+    "upgrade_notes": [
+      "主谓承重：以无生命主语 Sustained fiscal investment 驱动主句，摒弃 The government has invested...",
+      "分词伴随收束：thereby laying a solid foundation for... 逻辑一气呵成。"
+    ]
+  },
+  "A3.01": {
+    "item_id": "A3.01",
+    "theme": "A3",
+    "coordinate": "大作文 > 第三段：总结与趋势建议 > 趋势延续与观念定性句式",
+    "source_id": "T2_CHART_SEN_008",
+    "past_paper": "2013/2016英二",
+    "chinese": "总而言之，这一上升趋势表明当代青年越来越重视多元化的个人体验，并且这种趋势在未来几年仍将保持强劲的增长势头。",
+    "pitfall_alert": "【考研语法防坑】：attach greater importance to 后接名词或动名词（to 是介词）；momentum 作不可数/单数名词用法。",
+    "scaffold": "句型建议：All in all, the rising trend indicates that [Group] attach greater importance to [Value], and this upward momentum is bound to persist in the years ahead.\n核心语素：attach greater importance to; upward momentum; persist in the years ahead.",
+    "master_version": "All in all, this upward trajectory indicates that contemporary youth attach greater importance to diversified personal growth, and this momentum is bound to persist in the coming years.",
+    "upgrade_notes": [
+      "升华词汇：以 upward trajectory 替代平铺的 trend，以 bound to persist 传递坚定推论。",
+      "价值定性：超越数字表面，点出当代青年价值取向的深刻内涵。"
+    ]
+  },
+  "A3.02": {
+    "item_id": "A3.02",
+    "theme": "A3",
+    "coordinate": "大作文 > 第三段：总结与趋势建议 > 政企社会协同引导建议句式",
+    "source_id": "T2_CHART_SEN_016",
+    "past_paper": "2010/2011英二",
+    "chinese": "为了巩固这一向好势头，政府应当继续推进普惠性扶持政策，而相关企业也应持续提升产品技术与服务质量。",
+    "pitfall_alert": "【考研搭配防坑】：巩固势头用 consolidate this momentum；推进政策用 carry out/implement sound policies；提升品质用 upgrade quality。",
+    "scaffold": "句型建议：To consolidate this favorable momentum, the government should continue to roll out supportive policies, while relevant enterprises ought to persistently enhance technical standards.\n核心语素：consolidate this momentum; supportive policies; relevant enterprises; enhance technical standards.",
+    "master_version": "To consolidate this momentum, the government should continue to carry out sound policies, while enterprises ought to constantly upgrade their technological standards and service quality.",
+    "upgrade_notes": [
+      "目的状语置顶：以 To consolidate this momentum 强力开篇，锚定解决问题的宏观高度。",
+      "并列平衡建议：政府与企业双主体责任划分清晰，分工明确。"
+    ]
+  },
+  "A3.03": {
+    "item_id": "A3.03",
+    "theme": "A3",
+    "coordinate": "大作文 > 第三段：总结与趋势建议 > Only 倒装高分收束句式",
+    "source_id": "T2_CHART_SEN_003",
+    "past_paper": "通用高分范文",
+    "chinese": "唯有当经济效益与生态环境保护相辅相成时，整个社会才能真正实现健康且可持续的高质量发展。",
+    "pitfall_alert": "【考研倒装语法防坑】：Only when... 引导的从句不倒装，主句必须部分倒装（can the whole society achieve...）。",
+    "scaffold": "句型建议：Only when [Condition A] complements [Condition B] can [Entity] truly achieve sustainable and high-quality development.\n核心语素：complements（与...相辅相成）；can society achieve（倒装主句）；sustainable and high-quality development.",
+    "master_version": "Only when economic benefits complement environmental preservation can the whole society truly achieve healthy and sustainable high-quality development.",
+    "upgrade_notes": [
+      "压轴倒装句型：Only when... can the whole society... 阅卷老师一眼锁定高分语法亮点。",
+      "语素深度：economic benefits complement environmental preservation 凝练对仗。"
+    ]
+  },
+  "A3.04": {
+    "item_id": "A3.04",
+    "theme": "A3",
+    "coordinate": "大作文 > 第三段：总结与趋势建议 > 利弊并存理性引导双收口",
+    "source_id": "T2_CHART_SEN_022",
+    "past_paper": "2015/2012英二",
+    "chinese": "尽管这一现象带来了巨大的经济活力，但相关部门仍需警惕潜在的过热风险，积极引导公众理性消费。",
+    "pitfall_alert": "【考研转折与虚词防坑】：Although / While 引导从句，主句严禁出现 but；警惕用 remain vigilant against。",
+    "scaffold": "句型建议：While this phenomenon infuses tremendous vitality into the economy, authorities still need to stay vigilant against potential risks and guide the public toward rational spending.\n核心语素：infuse tremendous vitality into; stay vigilant against; rational spending.",
+    "master_version": "While this boom injects tremendous vitality into the economy, authorities should remain vigilant against potential bubbles and actively guide citizens toward rational consumption.",
+    "upgrade_notes": [
+      "辩证收尾：肯定活力同时指出隐患，展现考研英语二极具思辨深度的高分立意。",
+      "高级动宾：inject tremendous vitality into / remain vigilant against potential bubbles。"
+    ]
+  },
+  "A4.01": {
+    "item_id": "A4.01",
+    "theme": "A4",
+    "coordinate": "大作文 > 真题全篇串联 > 2010手机用户走势全篇复盘",
+    "source_id": "2010大作文范文",
+    "past_paper": "2010英二",
+    "chinese": "请根据 2010 年真题图表，完整回译整篇高分范文：包括首段四要素定格、次段两点工业规模降本与人口通信刚需归因、末段技术普及展望与政企协同收口（共三段，约 175 词）。",
+    "pitfall_alert": "【全篇连贯防坑】：注意首段与次段之间、各动因之间的过渡词（First, Moreover, By contrast, Therefore），保证段落推进水到渠成。",
+    "scaffold": "段落推进：\n1. 首段：As is distinctly illustrated in the chart, mobile-phone subscriptions in developing countries surged... while those in developed countries...\n2. 次段：A number of factors contribute to... First, with rapid economic development... Industrial mass manufacturing has drastically brought down overhead costs... Moreover, network coverage...\n3. 尾段：This trend shows that... Therefore, both governments and companies should work together to...",
+    "master_version": "As is distinctly illustrated in the chart, mobile-phone subscriptions in developing countries surged dramatically from about 0.4 billion in 2000 to nearly 4 billion in 2008, while those in developed countries experienced a rather slow increase and stayed at about 1 billion.\n\nA number of factors contribute to this sharp increase. First, with rapid economic development, developing countries have built many modern industries and factories. Industrial mass manufacturing has drastically brought down overhead costs, rendering mobile phones financially accessible to the public. Second, these countries have a huge population, and mobile communication has become a basic need in daily life. Moreover, the rapid improvement of network coverage has made mobile services available even in remote areas. By contrast, the market in developed countries has been saturated for years, so the demand for new subscriptions is limited.\n\nThis trend shows that new technologies are spreading faster in developing countries, and it will bring more people into the digital world. Therefore, both governments and companies should work together to make mobile services cheaper and easier to use.",
+    "upgrade_notes": [
+      "逻辑链无死角闭环：数据事实定格 -> 工业降本与人口基数双推力 -> 数字鸿沟弥合建议。",
+      "高分句群连贯：包含双主体对照骨架、分词作结果状语、对比转折分句全套高阶语法体系。"
+    ]
+  },
+  "A4.02": {
+    "item_id": "A4.02",
+    "theme": "A4",
+    "coordinate": "大作文 > 真题全篇串联 > 2011轿车品牌份额全篇复盘",
+    "source_id": "2011大作文范文",
+    "past_paper": "2011英二",
+    "chinese": "完整回译 2011 年国内轿车品牌市场份额变化高分范文：首段份额消长定格、次段自主研发技术突围与性价比亲民归因、末段政府扶持与企业创新双闭环建议（约 177 词）。",
+    "pitfall_alert": "【行文规范】：注意自主品牌用 domestic brands，合资/外国品牌用 foreign counterparts。",
+    "scaffold": "骨架推进：market share surged from... to...; Two interrelated factors account for...; To consolidate this momentum...",
+    "master_version": "As is distinctly illustrated in the chart, the market share of domestic cars surged from about 25% in 2008 to above 30% in 2009, whereas those of Japanese and American brands declined slightly, contracting to about 20% and 15% respectively.\n\nTwo interrelated factors account for this dramatic surge. To begin with, the rapid advancement of independent research and development has enabled Chinese automakers to drastically enhance quality and safety standards. Furthermore, by optimizing manufacturing chains, domestic brands deliver high value for money, making automobiles affordable for millions of ordinary households. Meanwhile, consumer attitudes have shifted significantly: Chinese drivers once associated local cars with inferior quality but now regard them as symbols of quality and modernity, so public trust keeps growing. Moreover, this surge was bolstered by government subsidies and favorable policies encouraging greener, smaller vehicles.\n\nTo consolidate this momentum, the government should continue to carry out sound policies, enterprises should keep sharpening their competitive edge, and consumers should be encouraged to choose green domestic products.",
+    "upgrade_notes": [
+      "多维因果编织：自主研发品质提升 + 产业链高性价比 + 消费者观念转变 + 产业政策补贴。",
+      "排比式结尾建议：the government should... enterprises should... and consumers should..."
+    ]
+  },
+  "A4.03": {
+    "item_id": "A4.03",
+    "theme": "A4",
+    "coordinate": "大作文 > 真题全篇串联 > 2012员工满意度全篇复盘",
+    "source_id": "2012大作文范文",
+    "past_paper": "2012英二",
+    "chinese": "完整回译 2012 年员工工作满意度调查高分范文：首段表格年龄落差定格、次段青年职场压力与中年职业稳定归因、末段企业畅通晋升通道与关怀举措（约 179 词）。",
+    "pitfall_alert": "【表格题格式】：载体用 in the table；职业发展路径用 promotion channels。",
+    "scaffold": "骨架推进：differ sharply in job satisfaction by age; This gap results from their different expectations and pressures; To bridge this gap...",
+    "master_version": "As is distinctly illustrated in the table, a company's staff differ sharply in job satisfaction by age. Those aged 41 to 50 are the most satisfied, at 40%, whereas about 64% of employees under 40 feel dissatisfied with their work.\n\nThis gap results from their different expectations and pressures. To begin with, younger workers usually carry heavy workloads and face fierce competition for promotion. Many of them bear substantial financial pressures, such as purchasing an apartment and raising children, which naturally fuels anxiety and dissatisfaction. In contrast, older staff members have generally established their professional standing and secured stable incomes, leaving them free from immediate financial burdens and career uncertainty.\n\nTo bridge this gap, companies ought to open up promotion channels and provide targeted training programs for junior employees. Simultaneously, management should offer reasonable compensation packages and psychological counseling to alleviate workplace anxiety.",
+    "upgrade_notes": [
+      "心理与现实双重归因：职场晋升竞争 + 购房养家经济重担，贴近真实社会生活语境。",
+      "对症下药式建议：针对年轻人的晋升通道 + 薪酬包与心理疏导。"
+    ]
+  },
+  "A4.04": {
+    "item_id": "A4.04",
+    "theme": "A4",
+    "coordinate": "大作文 > 真题全篇串联 > 2013高校学生兼职全篇复盘",
+    "source_id": "2013大作文范文",
+    "past_paper": "2013英二",
+    "chinese": "完整回译 2013 年大学生兼职情况高分范文：首段双节奏多阶段走势定格、次段大一大二求稳与大四求职实战刚需归因、末段理性平衡学业与实践建议（约 178 词）。",
+    "pitfall_alert": "【年级表述】：freshmen, sophomore, junior, senior；平衡学业与兼职用 strike a balance between academics and practical experience。",
+    "scaffold": "骨架推进：percentage climbed from... before surging to...; This steady rise results from...; All in all, the rising percentage indicates...",
+    "master_version": "As is distinctly illustrated in the chart, the percentage of university students holding a part-time job climbed from 67.77% among freshmen to 71.13% and 71.93% in the sophomore and junior years, before surging to 88.24% in the senior year.\n\nThis steady rise results from the different situations students face at each stage. When first entering campus, freshmen usually spend most of their time adjusting to academic routines and life away from home, so relatively few look for jobs. As time passes, sophomores and juniors gain more leisure time and feel the urge to accumulate social experience and ease their families' financial burdens. The dramatic leap in the fourth year is especially easy to understand: facing an increasingly fierce job market, seniors actively seek internships and part-time positions to build professional networks and polish their resumes.\n\nAll in all, the rising percentage indicates that students attach greater importance to practical skills and independence. Nevertheless, universities should guide students to strike a healthy balance between academic pursuits and outside employment.",
+    "upgrade_notes": [
+      "四年阶梯式深度分析：大一适应生活 -> 大二大三自理与实践 -> 大四求职压力井喷，极具说服力。",
+      "理性转折建议：以 Nevertheless 引出学业与兼职的黄金平衡点。"
+    ]
+  },
+  "A4.05": {
+    "item_id": "A4.05",
+    "theme": "A4",
+    "coordinate": "大作文 > 真题全篇串联 > 2014城乡人口变迁全篇复盘",
+    "source_id": "2014大作文范文",
+    "past_paper": "2014英二",
+    "chinese": "完整回译 2014 年城乡人口结构变迁高分范文：首段城镇人口暴增与农村人口下降历史性拐点定格、次段工业化拉动与城市优质公共服务归因、末段推进新型城镇化建议（约 186 词）。",
+    "pitfall_alert": "【城镇化语素】：urbanisation; microcosm of China's development; agricultural surplus labor。",
+    "scaffold": "骨架推进：urban population surged from... while rural population decreased...; This dramatic shift stems largely from...; This trend, a microcosm of China's urbanisation, indicates...",
+    "master_version": "As is distinctly illustrated in the chart, the urban population surged dramatically from 300 million in 1990 to 458 million in 2000, and further to nearly 670 million in 2010, while the rural population decreased steadily from about 800 million to roughly 670 million.\n\nThis dramatic shift stems largely from China's rapid economic development. First, industrial development and the booming service sector in metropolitan areas have generated millions of rewarding job opportunities, attracting huge waves of surplus rural labor. Second, cities offer substantially superior educational resources, advanced medical facilities, and modern infrastructure, making urban life far more appealing to rural residents. Consequently, millions of farmers have moved into cities, permanently transforming China's demographic landscape.\n\nThis trend, a microcosm of China's urbanisation, indicates that cities offer better living conditions and prospects. To ensure sustainable growth, policymakers should continue to optimize urban planning, expand public services, and promote rural revitalization in tandem.",
+    "upgrade_notes": [
+      "大时代命题：把城乡人口变动拔高到中国城镇化缩影（a microcosm of China's urbanisation）。",
+      "因果链纵深：产业吸纳就业 + 公共资源落差吸引 -> 人口不可逆迁移。"
+    ]
+  },
+  "A4.06": {
+    "item_id": "A4.06",
+    "theme": "A4",
+    "coordinate": "大作文 > 真题全篇串联 > 2015春节消费结构全篇复盘",
+    "source_id": "2015大作文范文",
+    "past_paper": "2015英二",
+    "chinese": "完整回译 2015 年春节假期消费结构高分范文：首段饼图礼物极值与交通聚餐并列定格、次段礼尚往来亲情文化与交通便利驱动归因、末段理性过节建议（约 178 词）。",
+    "pitfall_alert": "【饼图与文化语素】：pie chart; New Year gifts; reciprocity and family reunion; rational spending。",
+    "scaffold": "骨架推进：New Year gifts account for the largest share...; This pattern stems largely from the Spring Festival culture...; Overall, the figures mirror...",
+    "master_version": "As is distinctly illustrated in the pie chart, New Year gifts account for the largest share of festival spending, at 40%, while transport and gatherings each make up about 20%.\n\nThis pattern stems largely from the Spring Festival culture, whose core is family reunion and mutual appreciation. Exchanging gifts has long been a traditional custom to express goodwill and affection toward relatives and friends. Furthermore, the rapid expansion of high-speed rail networks and civil aviation has made long-distance travel far more convenient, leading to substantial expenditures on transportation. Finally, festival banquets and family dinners have become an indispensable part of holiday celebrations as people cherish the opportunity to catch up with loved ones.\n\nOverall, the figures mirror Chinese people's festive habits and their deep affection for traditional family values. While celebrating the holiday, consumers should embrace sensible spending habits and avoid wasteful comparison.",
+    "upgrade_notes": [
+      "文化意涵拆解：超越数字账目，点破春节文化核心是团聚与情感回馈（family reunion and mutual appreciation）。",
+      "末段倡导新风：倡导 sensible spending habits，摒弃面子攀比。"
+    ]
+  },
+  "A4.07": {
+    "item_id": "A4.07",
+    "theme": "A4",
+    "coordinate": "大作文 > 真题全篇串联 > 2016学生旅游目的全篇复盘",
+    "source_id": "2016大作文范文",
+    "past_paper": "2016英二",
+    "chinese": "完整回译 2016 年大学生旅游目的调查高分范文：首段风景首选与减压交友梯队定格、次段亲近自然渴望与学业社交减压归因、末段安全文明出游建议（约 180 词）。",
+    "pitfall_alert": "【排序与减压语素】：tops the list; closely followed by; relieve academic fatigue; broaden horizons。",
+    "scaffold": "骨架推进：sightseeing accounts for the largest proportion...; This distribution stems largely from two factors...; Whatever their purposes...",
+    "master_version": "As is distinctly illustrated in the chart, sightseeing accounts for the largest proportion of students' travel purposes, at 37%, closely followed by relieving pressure and making friends, which make up 33% and 16% respectively.\n\nThis distribution stems largely from two factors: the appeal of natural scenery and the heavy burden of campus routines. On the one hand, young people living in concrete cities long to immerse themselves in nature, appreciate scenic landscapes, and broaden their horizons. On the other hand, facing demanding coursework and fierce competition, university students urgently need healthy outlets to relieve mental exhaustion. Traveling with peers provides an ideal setting to strengthen friendships and develop interpersonal skills.\n\nWhatever their purposes, students benefit immensely from well-planned journeys. Schools and families should encourage students to travel responsibly, ensuring safety while embracing cultural and natural wonders.",
+    "upgrade_notes": [
+      "身心双维动因：对大自然的向往（immerse themselves in nature）+ 繁重学业下的减压刚需（relieve mental exhaustion）。",
+      "文气贯通：以 Whatever their purposes 开启末段，包容多维目的。"
+    ]
+  },
+  "A4.08": {
+    "item_id": "A4.08",
+    "theme": "A4",
+    "coordinate": "大作文 > 真题全篇串联 > 2017博物馆数量与人数全篇复盘",
+    "source_id": "2017大作文范文",
+    "past_paper": "2017英二",
+    "chinese": "完整回译 2017 年博物馆数量与参观人数双增长高分范文：首段场馆稳增与人次狂飙定格、次段精神文化追求觉醒与公共文旅免费开放归因、末段深化文博展陈建议（约 184 词）。",
+    "pitfall_alert": "【双增长语素】：attendance grew even faster; shift from material wealth to spiritual fulfillment; public cultural services。",
+    "scaffold": "骨架推进：number of museums rose steadily... while attendance grew even faster...; This gap stems mainly from two factors...; This trend is a microcosm of...",
+    "master_version": "As is distinctly illustrated in the chart, the number of museums in China rose steadily from 4,165 in 2013 to 4,692 two years later, while attendance grew even faster, climbing from 637 million to roughly 781 million.\n\nThis gap stems mainly from two factors. First, having secured material comforts, Chinese citizens are increasingly shifting their focus toward spiritual fulfillment and cultural enrichment. Visiting museums has become an immensely popular weekend activity for families seeking cultural education. Second, government initiatives offering free admission to public museums, combined with innovative exhibitions and digital displays, have made cultural heritage far more accessible and engaging to ordinary people.\n\nThis trend is a microcosm of the continuous improvement in the quality of life across China. To sustain this cultural enthusiasm, cultural authorities should continue to curate captivating exhibitions and upgrade digital museum services.",
+    "upgrade_notes": [
+      "供需矛盾与协调：场馆数量稳增（供给端）vs 参观人次狂飙（需求端井喷）。",
+      "时代主题升华：a microcosm of the continuous improvement in the quality of life。"
+    ]
+  },
+  "B1.01": {
+    "item_id": "B1.01",
+    "theme": "B1",
+    "coordinate": "小作文 > 首段寒暄与写信目的 > 建议信/咨询信开篇",
+    "source_id": "T1_ADV_STR_002, T1_ADV_SEN_009",
+    "past_paper": "2011/2014英二",
+    "chinese": "得知你已被如此顶尖的大学录取，我由衷为你感到高兴。深知你此刻对大学新生活既兴奋又有些忐忑，我特写此信为你提供几条入学前的实用准备建议。",
+    "pitfall_alert": "【小作文语域防坑】：私人书信开篇需热情得体，注意分词前置 Knowing that...，写信目的句用 I am writing to provide...",
+    "scaffold": "句型建议：Congratulations on your admission to [Institution]! Knowing that you are both thrilled and somewhat apprehensive about [Event], I am writing to share several practical recommendations regarding [Topic].\n核心语素：admission to a prestigious university; thrilled and somewhat apprehensive; practical recommendations.",
+    "master_version": "Congratulations on your admission to such a prestigious university! Knowing that you are both thrilled and somewhat apprehensive about the upcoming campus life, I am writing this letter to share several practical suggestions for your university preparation.",
+    "upgrade_notes": [
+      "分词状语前置：Knowing that you are both thrilled and somewhat apprehensive 极富人情味。",
+      "自然破题：以 I am writing this letter to share... 顺理成章引入建议主题。"
+    ]
+  },
+  "B1.02": {
+    "item_id": "B1.02",
+    "theme": "B1",
+    "coordinate": "小作文 > 首段寒暄与写信目的 > 投诉信开篇定调",
+    "source_id": "T1_COM_SEN_001",
+    "past_paper": "2012英二",
+    "chinese": "我写此信旨在就我日前在贵网店购买的电子词典向客户服务中心提出正式投诉，并敦促贵方尽快提供满意的解决方案。",
+    "pitfall_alert": "【投诉信语域防坑】：严禁使用口语化抱怨；必须使用商务正式语体 lodge a formal complaint regarding... 并交代交易四要素（商品、渠道、时间、诉求）。",
+    "scaffold": "句型建议：I am writing to lodge a formal complaint regarding [Product] that I purchased from your [Platform] on [Date], and to request an immediate, satisfactory resolution.\n核心语素：lodge a formal complaint regarding; purchased from your online store; demand a prompt solution.",
+    "master_version": "I am writing to lodge a formal complaint regarding the electronic dictionary that I purchased from your online store the other day, and to urge your department to offer a prompt, satisfactory solution.",
+    "upgrade_notes": [
+      "公文四要素合一：一句话明确交代投诉主体、对象商品、购买渠道与写信意图。",
+      "精准动词搭配：以 lodge a formal complaint 替换粗陋的 complain about。"
+    ]
+  },
+  "B1.03": {
+    "item_id": "B1.03",
+    "theme": "B1",
+    "coordinate": "小作文 > 首段寒暄与写信目的 > 通知/倡议书开篇定调",
+    "source_id": "T1_NOT_SEN_004",
+    "past_paper": "2013/2015英二",
+    "chinese": "为了给即将到来的国际夏令营提供全方位的志愿服务支持，学生会定于本周五在学生活动中心面向全校招募 20 名具备出色英语沟通能力的志愿者。",
+    "pitfall_alert": "【公文通知格式防坑】：通知无需敬语称谓；开篇首句用 To do... 开头交代目的，并用 is scheduled to do 交代安排与招募名额。",
+    "scaffold": "句型建议：To ensure the smooth execution of [Event], [Organization] is scheduled to recruit [Number] volunteers who possess exceptional [Skill] on [Date] at [Location].\n核心语素：ensure the smooth execution of; is scheduled to recruit; possess exceptional communication skills.",
+    "master_version": "To ensure the smooth organization of the upcoming international summer camp, the Student Union is scheduled to recruit 20 volunteers with exceptional English communication skills this Friday at the Student Activity Center.",
+    "upgrade_notes": [
+      "公文标配结构：目的置前（To ensure...）+ 机构主体（Student Union）+ 安排（is scheduled to recruit）。",
+      "信息凝练：时间、地点、名额、资质要求一句锁定。"
+    ]
+  },
+  "B1.04": {
+    "item_id": "B1.04",
+    "theme": "B1",
+    "coordinate": "小作文 > 首段寒暄与写信目的 > 邀请信开篇定调",
+    "source_id": "T1_INV_STR_001",
+    "past_paper": "2021英二",
+    "chinese": "得知你对中国历史与名胜古迹抱有浓厚兴趣，我特写此信诚挚邀请你参加定于本周六晚八点举行的线上行程规划讨论会。",
+    "pitfall_alert": "【邀请信语气防坑】：Knowing that you are eager to... 引出共同话题；邀请用 I am writing to cordially invite you to...",
+    "scaffold": "句型建议：Knowing that you have a keen interest in [Topic], I am writing to cordially invite you to attend the upcoming [Meeting/Event] scheduled for [Time].\n核心语素：keen interest in; cordially invite you to; scheduled for.",
+    "master_version": "Knowing that you are eager to learn about Chinese history, I am writing to cordially invite you to attend an online planning meeting scheduled for 8:00 p.m. this Saturday.",
+    "upgrade_notes": [
+      "情感抓手破题：从对方的兴趣（eager to learn about...）切入，消解突兀感。",
+      "正式邀约用词：以 cordially invite you to 营造尊重与诚意。"
+    ]
+  },
+  "B1.05": {
+    "item_id": "B1.05",
+    "theme": "B1",
+    "coordinate": "小作文 > 首段寒暄与写信目的 > 道歉信开篇定调",
+    "source_id": "T1_APO_SEN_001, T1_APO_SEN_002",
+    "past_paper": "2018英二",
+    "chinese": "请接受我就未能按既定约定于本周五拜访您一事的由衷歉意。本来我数周来一直期待着这次会面，却不料突发重感冒发烧卧床，实在无法如期成行。",
+    "pitfall_alert": "【道歉信尊长语域防坑】：向尊长致歉需极尽谦逊；首句用 Please accept my sincere apology for not being able to...；制造期待与意外的落差。",
+    "scaffold": "句型建议：Please accept my sincere apology for failing to visit you as scheduled on [Date]. Having eagerly anticipated our meeting for weeks, I was unfortunately struck down by [Illness]...\n核心语素：sincere apology; visit you as scheduled; having eagerly anticipated our meeting.",
+    "master_version": "Please accept my sincere apology for not being able to visit you as scheduled this Friday. Having looked forward to our meeting for weeks, I woke up with a high fever this morning and have been advised to stay in bed, making it impossible for me to make the trip.",
+    "upgrade_notes": [
+      "先道歉后叙事：避免找借口前置导致诚意不足。",
+      "情感落差渲染：Having looked forward to... for weeks 充分体现心理重度重视。"
+    ]
+  },
+  "B1.06": {
+    "item_id": "B1.06",
+    "theme": "B1",
+    "coordinate": "小作文 > 首段寒暄与写信目的 > 回复信/推荐信开篇",
+    "source_id": "T1_REP_STR_001, T1_REC_SEN_001",
+    "past_paper": "2017/2020英二",
+    "chinese": "非常感谢您的盛情邀请。得知有幸向贵系师生展示中国传统文化，我感到无比荣幸并十分欣然接受这一宝贵邀请。",
+    "pitfall_alert": "【回复尊长邀请防坑】：Thank you for your gracious invitation；表达接受用 pleased / honored to accept it。",
+    "scaffold": "句型建议：Thank you very much for your gracious invitation. I am extremely honored and delighted to accept it, as it provides a wonderful forum to showcase [Topic].\n核心语素：gracious invitation; honored and delighted to accept it; showcase.",
+    "master_version": "Thank you very much for your gracious invitation. I am both honored and pleased to accept it. It offers an invaluable opportunity to introduce Chinese traditional culture to international students.",
+    "upgrade_notes": [
+      "礼貌回礼：以双感谢开篇，肯定邀请的高价值（an invaluable opportunity）。",
+      "并列形容词点缀：both honored and pleased 体现谦逊与欣喜。"
+    ]
+  },
+  "B2.01": {
+    "item_id": "B2.01",
+    "theme": "B2",
+    "coordinate": "小作文 > 正文核心要点展开 > 提建议与做推荐功能群",
+    "source_id": "T1_ADV_SEN_005, T1_REC_SEN_002",
+    "past_paper": "2011/2020英二",
+    "chinese": "首先，你最好学会制定每月的财务预算并合理分配日常开销，因为合理管理财务能有效避免在学期末陷入捉襟见肘的财务窘境。",
+    "pitfall_alert": "【建议句式防坑】：避免单调的 You should...；使用 You had better do... for doing so can...（先动作、后补原因和收益闭环）。",
+    "scaffold": "句型建议：To begin with, you had better [Action A], for [Reason/Benefit]. In addition, [Action B] can prevent you from [Negative Consequence].\n核心语素：had better learn to manage monthly budget; allocate living expenses; avoid falling into financial distress.",
+    "master_version": "To begin with, you had better learn to manage your monthly budget and allocate living expenses reasonably, for doing so can effectively prevent you from falling into financial distress toward the end of the semester.",
+    "upgrade_notes": [
+      "for 引导原因分句：书面色彩强于 because，衔接流畅自然。",
+      "负面后果反向加码：prevent you from falling into financial distress 强化建议份量。"
+    ]
+  },
+  "B2.02": {
+    "item_id": "B2.02",
+    "theme": "B2",
+    "coordinate": "小作文 > 正文核心要点展开 > 活动安排与招募要求功能群",
+    "source_id": "T1_NOT_SEN_001, T1_NOT_SEN_005",
+    "past_paper": "2013/2015英二",
+    "chinese": "值得强调的是，应聘者必须具备熟练的英语日常对话能力与强烈的责任心，有跨文化交流经验或志愿者服务经历者将被优先录取。",
+    "pitfall_alert": "【公文要求语素】：It is worth emphasizing that...；品质名词前置作主语；优先录取用 preference will be given to...",
+    "scaffold": "句型建议：It is worth emphasizing that candidates must possess [Quality A]. Meanwhile, preference will be given to those who demonstrate [Experience B].\n核心语素：worth emphasizing; candidates must possess; preference will be given to.",
+    "master_version": "It is worth emphasizing that applicants are expected to possess fluent spoken English and a strong sense of responsibility. Furthermore, preference will be given to those with prior volunteer experience or cross-cultural communication skills.",
+    "upgrade_notes": [
+      "强调句型突出要点：It is worth emphasizing that... 引导核心硬性门槛。",
+      "官方招聘规范句：preference will be given to those with... 语域极其纯正。"
+    ]
+  },
+  "B2.03": {
+    "item_id": "B2.03",
+    "theme": "B2",
+    "coordinate": "小作文 > 正文核心要点展开 > 解释原因与表达诉求功能群",
+    "source_id": "T1_COM_SEN_002, T1_COM_SEN_003",
+    "past_paper": "2012英二",
+    "chinese": "出于对贵品牌的深厚信任，我满怀期待地拆开包裹，却震惊地发现该设备的屏幕存在严重黑屏故障，且电池无法正常充电。",
+    "pitfall_alert": "【让步落差句型防坑】：Having placed high trust in... 先立信任筹码，再砸出缺陷事实 I was dismayed to discover that...",
+    "scaffold": "句型建议：Having placed high trust in [Brand], I was deeply disappointed to discover that [Product] suffers from [Defect A], with [Component B] completely failing to work.\n核心语素：placed high trust in; deeply dismayed to discover; suffers from severe screen defects.",
+    "master_version": "Having placed high trust in your brand, I was dismayed to discover that the device suffers from a severe screen display defect, and that the battery fails to charge properly.",
+    "upgrade_notes": [
+      "分词前置制造交涉筹码：Having placed high trust in your brand 占据道德制高点。",
+      "并列宾语从句控诉缺陷：and that... 并列引出双重硬件质量瑕疵。"
+    ]
+  },
+  "B3.01": {
+    "item_id": "B3.01",
+    "theme": "B3",
+    "coordinate": "小作文 > 各文类尾段收口 > 投诉与维权闭环",
+    "source_id": "T1_COM_SEN_003",
+    "past_paper": "2012英二",
+    "chinese": "鉴于上述情况，我完全有理由要求贵方在三个工作日内全额退款或更换一台全新无瑕疵的机器。期待您的迅速回复。",
+    "pitfall_alert": "【投诉诉求措辞防坑】：避免软弱求人；使用交涉姿态 I believe it is entirely reasonable for me to demand a full refund or an immediate replacement...",
+    "scaffold": "句型建议：Under these circumstances, I believe it is entirely reasonable for me to demand [Resolution A] or [Resolution B] within [Timeframe]. Looking forward to your prompt response.\n核心语素：under these circumstances; entirely reasonable; demand a full refund or an immediate replacement.",
+    "master_version": "Under these circumstances, I believe it is entirely reasonable for me to demand a full refund or an immediate replacement within three working days. I look forward to your prompt reply.",
+    "upgrade_notes": [
+      "权利立场坚定：it is entirely reasonable for me to demand 名词化索赔。",
+      "给出明确解决时限：within three working days 体现专业交涉水准。"
+    ]
+  },
+  "B3.02": {
+    "item_id": "B3.02",
+    "theme": "B3",
+    "coordinate": "小作文 > 各文类尾段收口 > 咨询与通知答疑通道",
+    "source_id": "T1_NOT_SEN_006",
+    "past_paper": "2013/2015英二",
+    "chinese": "如对本次活动招募或具体流程有任何疑问，请随时通过下方邮箱与我们联系。报名截止日期为本周日晚六点，逾期将不再受理。",
+    "pitfall_alert": "【公文答疑通道】：Should you have any inquiries...（虚拟条件倒装省略 if）；截止日期用 The deadline for application is...",
+    "scaffold": "句型建议：Should you have any inquiries regarding [Event], please do not hesitate to contact us at [Email]. The deadline for application is [Time], after which no submissions will be accepted.\n核心语素：Should you have any inquiries; please do not hesitate to contact us; deadline for application.",
+    "master_version": "Should you have any inquiries regarding the recruitment, please do not hesitate to contact us at volunteer@campus.edu. The deadline for application is 6:00 p.m. this Sunday.",
+    "upgrade_notes": [
+      "高级倒装条件句：以 Should you have any inquiries 替代 If you have questions，公文气派十足。",
+      "截止日期严谨闭环：The deadline for application is... 明确时间界限。"
+    ]
+  },
+  "B3.03": {
+    "item_id": "B3.03",
+    "theme": "B3",
+    "coordinate": "小作文 > 各文类尾段收口 > 建议益处期许与助益收束",
+    "source_id": "T1_ADV_SEN_011",
+    "past_paper": "2011/2014英二",
+    "chinese": "我衷心希望以上建议能对你即将开始的大学新征程有所助益。若你在行前还需要其他信息或帮助，随时写信告诉我。",
+    "pitfall_alert": "【私人书信温情闭环】：I sincerely hope these suggestions will prove beneficial；随时告知用 feel free to let me know。",
+    "scaffold": "句型建议：I sincerely hope that these suggestions will prove beneficial to your [Upcoming Event]. Should you need any further information, please feel free to drop me a line.\n核心语素：prove beneficial to; drop me a line; wish you every success.",
+    "master_version": "I sincerely hope these suggestions will prove beneficial to your upcoming campus journey. Should you need any further assistance, please feel free to drop me a line. Wishing you every success in your university studies!",
+    "upgrade_notes": [
+      "地道动宾：prove beneficial to 比 be useful 高级得多。",
+      "亲切口吻：drop me a line 自然契合私人亲友书信情境。"
+    ]
+  },
+  "B3.04": {
+    "item_id": "B3.04",
+    "theme": "B3",
+    "coordinate": "小作文 > 各文类尾段收口 > 邀请期盼与参会致意",
+    "source_id": "T1_INV_SEN_002, T1_REC_SEN_004",
+    "past_paper": "2020/2021英二",
+    "chinese": "我们所有人都在热切期盼着你的参与，并深信你的独到见解将为我们行程的顺利成行做出巨大贡献。请于周四前告知我们你是否能够参会。",
+    "pitfall_alert": "【热切邀约句式】：look forward with great enthusiasm to...；确认参会用 confirm your availability by...",
+    "scaffold": "句型建议：We are all looking forward with great enthusiasm to your participation, and your insights will undoubtedly enrich our [Event]. Please confirm your availability by [Date].\n核心语素：looking forward with great enthusiasm; enrich our discussions; confirm your availability.",
+    "master_version": "We are all looking forward with great enthusiasm to your participation, as your unique insights will undoubtedly contribute to the success of our plan. Please confirm your availability by this Thursday.",
+    "upgrade_notes": [
+      "抬高对方价值：your unique insights will undoubtedly contribute to... 说明“非你不可”。",
+      "闭环落实：Please confirm your availability 引导明确操作节点。"
+    ]
+  },
+  "B3.05": {
+    "item_id": "B3.05",
+    "theme": "B3",
+    "coordinate": "小作文 > 各文类尾段收口 > 歉意重申与改约协商",
+    "source_id": "T1_APO_SEN_003, T1_REP_SEN_002",
+    "past_paper": "2018英二",
+    "chinese": "对于由此给您日程安排带来的不便，我再次致以最深切的歉意。不知下周待我身体康复之后，是否方便在您方便的时间重新安排拜访？",
+    "pitfall_alert": "【改约高礼貌语气】：I wonder if it would be convenient for you to reschedule... 双层虚拟语气委婉探寻。",
+    "scaffold": "句型建议：Once again, please accept my deepest regrets for any inconvenience caused to your schedule. I wonder if it would be convenient for you to reschedule our meeting sometime next week at your convenience.\n核心语素：deepest regrets; reschedule our meeting; at your convenience.",
+    "master_version": "Once again, please accept my deepest apologies for any inconvenience this may cause to your schedule. I wonder if it would be possible for us to reschedule our meeting next week at your convenience.",
+    "upgrade_notes": [
+      "双层软化语气：I wonder if it would be possible... 极致尊重长辈教授时间。",
+      "客套闭环：at your convenience 彰显教养与分寸感。"
+    ]
+  },
+  "B4.01": {
+    "item_id": "B4.01",
+    "theme": "B4",
+    "coordinate": "小作文 > 真题分类串联 > 建议与推荐信组串联复盘",
+    "source_id": "2011/2014/2019/2020真题",
+    "past_paper": "2011/2014/2019/2020英二",
+    "chinese": "请按文体串联复盘建议信核心套路：以 2011 年大学迎新准备信为例，写出完整的信件主体：开篇祝贺与理解心境、正文财务预算与课外活动双建议（先动作后理由）、尾段温暖寄语（约 105 词）。",
+    "pitfall_alert": "【建议信全篇格式】：称谓 Dear Li Ming，署名 Yours sincerely, Zhang Wei；正文分两条 bullet 或两个层次展开。",
+    "scaffold": "结构骨架：Congratulations on... Knowing that... I am writing to share... To begin with, you had better... for doing so can... Furthermore, I advise you to... I sincerely hope these suggestions will prove beneficial...",
+    "master_version": "Dear Li Ming,\n\n    Congratulations on your admission to such a prestigious university! Knowing that you are both thrilled and somewhat apprehensive about campus life, I am writing to offer several practical suggestions for your preparation.\n\n    To begin with, you had better learn to manage your monthly budget and allocate expenses reasonably, for doing so can prevent you from falling into financial distress toward the end of each semester. Furthermore, I advise you to balance academic routines with extracurricular activities, which will enrich your campus experience and expand your interpersonal network.\n\n    I sincerely hope these suggestions will prove beneficial to your upcoming journey. Wishing you every success!\n\nYours sincerely,\nZhang Wei",
+    "upgrade_notes": [
+      "私人书信金牌模板：祝贺与共情开篇 -> 财务与活动双轨建议 -> 温暖祝福收口。",
+      "动词句式层次：you had better learn to... / I advise you to balance... with..."
+    ]
+  },
+  "B4.02": {
+    "item_id": "B4.02",
+    "theme": "B4",
+    "coordinate": "小作文 > 真题分类串联 > 通知与倡议书组串联复盘",
+    "source_id": "2013/2015真题",
+    "past_paper": "2013/2015英二",
+    "chinese": "请以 2015 年夏令营志愿者招募通知为例，完整复盘通知公告文书结构：标题 Notice 置顶并标注日期、首段活动背景与招募指标、正文岗位职责与资质门槛、尾段报名方式与截止日期（约 100 词）。",
+    "pitfall_alert": "【通知公文格式】：顶格居中写 Notice；日期写在下一行右侧或居右；正文无称谓；末尾落款机构名（如 Postgraduates' Association）。",
+    "scaffold": "结构骨架：Notice / Date / To help high school students gain exposure to... our university is scheduled to recruit... Applicants are expected to... Furthermore, preference will be given to... Should you have any inquiries... The deadline is...",
+    "master_version": "Notice\n\nMay 10th, 2026\n\nTo help high school students gain exposure to university life, our university is scheduled to host an international summer camp this July, and 20 volunteers are urgently needed.\n\nApplicants are expected to possess fluent spoken English, strong organizational skills, and a high sense of responsibility. Furthermore, preference will be given to candidates with prior volunteer experience in cross-cultural activities.\n\nShould you have any inquiries, please contact us at volunteer@campus.edu. The deadline for registration is May 25th.\n\nPostgraduates' Association",
+    "upgrade_notes": [
+      "公文规范排版：Notice 标题居中，机构署名纯正。",
+      "倒装与被动：preference will be given to / Should you have any inquiries 语言极其严谨。"
+    ]
+  },
+  "B4.03": {
+    "item_id": "B4.03",
+    "theme": "B4",
+    "coordinate": "小作文 > 真题分类串联 > 回复与致谢组串联复盘",
+    "source_id": "2016/2017真题",
+    "past_paper": "2016/2017英二",
+    "chinese": "以 2017 年接受邀请并汇报展示要点为例，复盘回复信结构：称谓致敬、首段感谢邀请并欣然接受、正文汇报展示内容（春节文化内涵与传统习俗）、尾段征求反馈与礼貌收口（约 108 词）。",
+    "pitfall_alert": "【学术回信语域】：致信教授称谓 Dear Professor Williams；汇报要点用 My presentation will revolve around...",
+    "scaffold": "结构骨架：Dear Professor Williams,\nThank you for your gracious invitation. I am honored to accept it... My presentation will revolve around... Specifically, I will explore... and highlight... Please let me know if any adjustment is needed. Looking forward to...",
+    "master_version": "Dear Professor Williams,\n\n    Thank you very much for your gracious invitation. I am honored and pleased to accept it. It provides an exceptional opportunity to share Chinese traditional culture with your students.\n\n    My presentation will revolve around the Spring Festival, one of the most treasured cultural events in China. Specifically, I plan to elaborate on its historical origins, core family values, and unique festive customs, such as family reunion dinners and temple fairs. Visual aids and folk handicrafts will also be displayed to make the presentation lively.\n\n    Please let me know if any adjustment is needed. I look forward to meeting you all.\n\nYours sincerely,\nZhang Wei",
+    "upgrade_notes": [
+      "详略得当的方案汇报：历史渊源 + 核心价值观 + 民俗细节 + 道具辅助。",
+      "主动征求导师意见：Please let me know if any adjustment is needed 尽显治学严谨。"
+    ]
+  },
+  "B4.04": {
+    "item_id": "B4.04",
+    "theme": "B4",
+    "coordinate": "小作文 > 真题分类串联 > 投诉与道歉组串联复盘",
+    "source_id": "2012/2018真题",
+    "past_paper": "2012/2018英二",
+    "chinese": "以 2012 年投诉信为例，完整复盘交涉文书：称谓 Dear Sir or Madam、首段交易定点并正式投诉、次段前置信任反差与屏幕电池双缺陷控诉、末段限期全额退款或换机诉求（约 112 词）。",
+    "pitfall_alert": "【投诉信商务规范】：避免人身攻击；事实说话；诉求清晰可衡量。",
+    "scaffold": "结构骨架：Dear Sir or Madam,\nI am writing to lodge a formal complaint regarding... Having placed high trust in your brand, I was dismayed to discover that... Under these circumstances, I believe it is entirely reasonable for me to demand a full refund or an immediate replacement within three working days. Looking forward to...",
+    "master_version": "Dear Sir or Madam,\n\n    I am writing to lodge a formal complaint regarding the electronic dictionary that I purchased from your online store the other day, and to urge your department to offer a prompt, satisfactory solution.\n\n    Having placed high trust in your brand, I was dismayed to discover that the device suffers from a severe screen display defect, and that the battery fails to charge properly. Despite contacting your online customer service repeatedly, I have not received any constructive response.\n\n    Under these circumstances, I believe it is entirely reasonable for me to demand a full refund or an immediate replacement within three working days. I look forward to your prompt reply.\n\nYours faithfully,\nZhang Wei",
+    "upgrade_notes": [
+      "公文三段式递进：交易事实与投诉 -> 质量瑕疵与售后无门 -> 限期退款与换机诉求。",
+      "署名规范：Dear Sir or Madam 对应 Yours faithfully。"
+    ]
+  },
+  "B4.05": {
+    "item_id": "B4.05",
+    "theme": "B4",
+    "coordinate": "小作文 > 真题分类串联 > 邀请与协商组串联复盘",
+    "source_id": "2021真题",
+    "past_paper": "2021英二",
+    "chinese": "以 2021 年邀请参加行程规划线上会议为例，完整复盘邀请信结构：首段以对方兴趣破题并正式邀约、正文交代会议时间地点议题（讨论路线/安全预算）、尾段期盼回复与截止确认（约 106 词）。",
+    "pitfall_alert": "【邀请协商格式】：讨论路线用 finalize our itinerary；预订住宿用 accommodation booking。",
+    "scaffold": "结构骨架：Dear Jack,\nKnowing that you are eager to... I am writing to cordially invite you to... The meeting is scheduled for... During the session, we will finalize our travel itinerary, discuss safety precautions, and determine accommodation bookings. We are looking forward to your participation... Please confirm your availability by...",
+    "master_version": "Dear Jack,\n\n    Knowing that you are eager to learn about Chinese history, I am writing to cordially invite you to attend an online planning meeting for our upcoming historical journey.\n\n    The meeting is scheduled for 8:00 p.m. this Saturday via Tencent Meeting. During the session, we will finalize our travel itinerary, compare several must-visit cultural heritage sites, and discuss practical matters such as transportation and budget allocation. Your suggestions will be extremely valuable to our team.\n\n    We all look forward with great enthusiasm to your participation. Please confirm your availability by this Thursday.\n\nYours sincerely,\nZhang Wei",
+    "upgrade_notes": [
+      "议程精简干练：finalize travel itinerary -> compare heritage sites -> discuss transportation and budget。",
+      "礼貌推动行动：Please confirm your availability by this Thursday 杜绝拖延。"
+    ]
+  }
+}
