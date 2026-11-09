@@ -6,14 +6,18 @@
     "source_id": "T2_GEN_STR_001",
     "past_paper": "2010英二",
     "chinese": "正如柱状图清晰所示，发展中国家的手机用户数量从 2000 年的约 4 亿大幅激增至 2008 年的近 40 亿，而发达国家的这一数字则增长较为缓慢，稳定在约 10 亿。",
-    "pitfall_alert": "【考研数据防坑】：注意中文“亿”的单位换算（1亿 = 100 million = 0.1 billion），切勿直译为 million 导致数据缩小100倍；同时注意 countries 复数与 those in 代词呼应。",
+    "pitfall_alert": "【考研数据防坑】：注意中文“亿”的单位换算（1亿 = 100 million = 0.1 billion），切勿直译为 million 导致数据缩小100倍；同时注意 countries 复数与 those in 代词呼应；整段回译需确保时态统一为过去时（surged, stayed），载体定格词需加定冠词（in the chart）。",
     "scaffold": "句型建议：As is distinctly illustrated in the chart, [主体A] witnessed a dramatic surge in..., from... to..., while [主体B] experienced a rather slow increase and stayed at...\n核心语素：surge dramatically from... to...（大幅激增）；experience a rather slow increase（增长缓慢）；stay at about...（稳定在）。",
     "master_version": "As is distinctly illustrated in the chart, mobile-phone subscriptions in developing countries surged dramatically from about 0.4 billion in 2000 to nearly 4 billion in 2008, while those in developed countries experienced a rather slow increase and stayed at about 1 billion.",
     "upgrade_notes": [
       "主语名词化：采用 mobile-phone subscriptions 替代平面的 mobile phone users，语域专业度显著提升。",
       "动词张力：以 surged dramatically 承载爆发式增量，极值还原精准到位。",
-      "代词平衡对称：后半句运用 those in developed countries 对称呼应复数 subscriptions，形成紧凑对照。"
-    ]
+      "代词平衡对称：后半句运用 those in developed countries 对称呼应复数 subscriptions，形成紧凑对照。",
+      "四要素一次还原：载体、双主体、周期与极值一气呵成。"
+    ],
+    "thinking_direction": "双主体走势动态对比；构建图表定格主谓骨架，准确呈现时空起止节点与增减走势对照。",
+    "conservative_pitfall": "注意图表载体介词搭配、英文大数据数量级规范（千万/亿级表达），以及后半句主语代词呼应与时态一致性。（严禁直接剧透答案词）",
+    "micro_cue": "subscription (入网/订阅量); surge (激增)"
   },
   "A1.02": {
     "item_id": "A1.02",
@@ -22,14 +26,17 @@
     "source_id": "T2_CHART_SEN_014",
     "past_paper": "2015英二",
     "chinese": "正如饼图清晰所示，新年礼物在春节消费中占据了最大份额，达到 40%，而交通与聚餐聚会则各占约 20%。",
-    "pitfall_alert": "【考研数据防坑】：注意极值动词与介词搭配 account for the largest share of... at 40%；同时注意并列成分 each make up 中 each 作同位语时谓语动词用复数 make。",
-    "scaffold": "句型建议：As is distinctly illustrated in the [Chart Type], [Item A] accounts for the largest share of [Metric], at [Percentage 1], while [Item B] and [Item C] each make up about [Percentage 2].\n核心语素：account for the largest share of...（占据最大份额）；make up about...（占比约）。",
+    "pitfall_alert": "【考研数据防坑】：饼图必须写 in the pie chart；注意极值动词与介词搭配 account for the largest share of... at 40%；同时注意并列成分 each make up 中 each 作同位语时谓语动词用复数 make。",
+    "scaffold": "句型建议：As is distinctly illustrated in the [Chart Type], [Item A] accounts for the largest share of [Metric], at [Percentage 1], while [Item B] and [Item C] each make up about [Percentage 2].\n核心语素：pie chart; account for the largest share of...（占据最大份额）；make up about...（占比约）；festival spending。",
     "master_version": "As is distinctly illustrated in the pie chart, New Year gifts account for the largest share of festival spending, at 40%, while transport and gatherings each make up about 20%.",
     "upgrade_notes": [
       "极值与并列双收束：一句之内同时定格第一大极值与两个并列次要项，信息密度极高。",
       "介词定值：使用 at 40% 快速锚定数值，避免拖沓系动词。",
       "同位语精准平衡：transport and gatherings each make up 句型干净利落。"
-    ]
+    ],
+    "thinking_direction": "饼状图极值收束与并列次要项定格；一句话兼顾占比第一大项与后续并列项。",
+    "conservative_pitfall": "注意饼图载体介词、占比动宾固定搭配，以及并列主语同位语结构下的主谓一致规范。（严禁直接剧透答案词）",
+    "micro_cue": "share / proportion (份额/占比); each make up (各自占比)"
   },
   "A1.03": {
     "item_id": "A1.03",
@@ -38,32 +45,21 @@
     "source_id": "T2_CHART_SEN_006",
     "past_paper": "2013英二",
     "chinese": "正如柱状图清晰所示，大学兼职学生比例在大一为 67.77%，大二和大三分别攀升至 71.13% 和 71.93%，随后在大四大幅飙升至 88.24%。",
-    "pitfall_alert": "【考研语法防坑】：时间状语必须使用 among freshmen / in the sophomore and junior years / in the senior year，严禁写成 in freshmen 或 fourthed year。",
-    "scaffold": "句型建议：As is distinctly illustrated in the chart, [Metric] climbed from [Data 1] among [Group 1] to [Data 2] and [Data 3] in [Stage 2], before surging to [Data 4] in [Stage 3].\n核心语素：climb from... to...（稳步爬升）；before surging to...（随后突变飙升）。",
+    "pitfall_alert": "【考研语法防坑】：时间状语必须使用 among freshmen / in the sophomore and junior years / in the senior year，严禁写成 in freshmen 或 fourthed year；注意 holding a part-time job 作后置定语修饰 students，主语是 percentage，谓语用 climbed 单数。",
+    "scaffold": "句型建议：As is distinctly illustrated in the chart, [Metric] climbed from [Data 1] among [Group 1] to [Data 2] and [Data 3] in [Stage 2], before surging to [Data 4] in [Stage 3].\n核心语素：percentage of university students; climb from... to...（稳步爬升）；before surging to...（随后突变飙升）；holding a part-time job。",
     "master_version": "As is distinctly illustrated in the chart, the percentage of university students holding a part-time job climbed from 67.77% among freshmen to 71.13% and 71.93% in the sophomore and junior years, before surging to 88.24% in the senior year.",
     "upgrade_notes": [
       "双节奏复合走势：以 climbed 立稳步主线，以 before surging to 点亮突变极值，层次分明。",
       "多阶段压缩合并：巧妙压缩中间两组并列数据，句式毫不臃肿。",
-      "非谓语分词定性：holding a part-time job 作后置定语紧扣主体。"
-    ]
+      "非谓语分词定性：holding a part-time job 作后置定语紧扣主体。",
+      "年级术语规范：freshmen / sophomore / junior / senior 四年级表达标准。"
+    ],
+    "thinking_direction": "双节奏复合走势（稳步爬升 + 突变飙升）；巧妙压缩合并中间并列数据，突出走势转折。",
+    "conservative_pitfall": "注意年级表达规范、分词作后置定语修饰主体，以及主干谓语动词时态的一致性。（严禁直接剧透答案词）",
+    "micro_cue": "hold a part-time job (兼职); climb ... before surging (先爬升后飙升)"
   },
   "A1.04": {
     "item_id": "A1.04",
-    "theme": "A1",
-    "coordinate": "大作文 > 第一段：图表定格 > 2010手机用户走势真题首段",
-    "source_id": "2010真题首段",
-    "past_paper": "2010英二",
-    "chinese": "正如柱状图清晰所示，发展中国家的手机用户数量从 2000 年的约 4 亿激增至 2008 年的近 40 亿，而发达国家的用户数量增长较为缓慢，稳定在约 10 亿。",
-    "pitfall_alert": "【考研高分规范】：整段回译需确保时态统一为过去时（surged, stayed），载体定格词需加定冠词（in the chart）。",
-    "scaffold": "句型建议：As is distinctly illustrated in the chart, [Entity A] witnessed/surged..., while [Entity B]...\n核心语素：mobile-phone subscriptions; surged dramatically; stayed at about 1 billion.",
-    "master_version": "As is distinctly illustrated in the chart, mobile-phone subscriptions in developing countries surged dramatically from about 0.4 billion in 2000 to nearly 4 billion in 2008, while those in developed countries experienced a rather slow increase and stayed at about 1 billion.",
-    "upgrade_notes": [
-      "四要素一次还原：载体、双主体、周期与极值一气呵成。",
-      "对称结构：前半句主动动词句与后半句 while 引导对比句形成严整张力。"
-    ]
-  },
-  "A1.05": {
-    "item_id": "A1.05",
     "theme": "A1",
     "coordinate": "大作文 > 第一段：图表定格 > 2011国内轿车市场份额消长真题首段",
     "source_id": "2011真题首段",
@@ -75,10 +71,13 @@
     "upgrade_notes": [
       "分词伴随状语：contracting to... respectively 精炼交代多方并列结果。",
       "对比连词切换：使用 whereas 替代平淡的 but，凸显学术语域。"
-    ]
+    ],
+    "thinking_direction": "主体份额增减对照；前半句突出自主品牌突破，后半句对称收束合资品牌收缩。",
+    "conservative_pitfall": "注意“分别”副词的修饰位置、数值范围介词选用，以及对照代词与复数名词的呼应。（严禁直接剧透答案词）",
+    "micro_cue": "domestic (自主/国内的); contract (收缩/缩减); respectively (分别)"
   },
-  "A1.06": {
-    "item_id": "A1.06",
+  "A1.05": {
+    "item_id": "A1.05",
     "theme": "A1",
     "coordinate": "大作文 > 第一段：图表定格 > 2012员工工作满意度落差真题首段",
     "source_id": "2012真题首段",
@@ -90,25 +89,13 @@
     "upgrade_notes": [
       "总分结构破题：首句用 differ sharply by age 一语定性，次句迅速砸出极值落差。",
       "载体严密匹配：精准选用 in the table 杜绝阅卷常识性扣分。"
-    ]
+    ],
+    "thinking_direction": "表格多维度分类落差定格；先交代分类维度，再对比最高满意度与明显不满群体。",
+    "conservative_pitfall": "注意表格题载体介词、形容词修饰年龄段的表达规范，以及百分比作主语时的谓语单复数。（严禁直接剧透答案词）",
+    "micro_cue": "differ in ... by age (因年龄而在...存在差异); dissatisfied (不满意的)"
   },
-  "A1.07": {
-    "item_id": "A1.07",
-    "theme": "A1",
-    "coordinate": "大作文 > 第一段：图表定格 > 2013高校兼职情况真题首段",
-    "source_id": "2013真题首段",
-    "past_paper": "2013英二",
-    "chinese": "正如柱状图清晰所示，大学兼职学生比例从大一的 67.77% 稳步上升至大二和大三的 71.13% 与 71.93%，并在大四激增至 88.24%。",
-    "pitfall_alert": "【考研语法防坑】：注意 holding a part-time job 作后置定语修饰 students，主语是 percentage，谓语用 climbed 单数。",
-    "scaffold": "句型建议：As is distinctly illustrated in the chart, the percentage of students holding... climbed from... to..., before surging to... in the senior year.\n核心语素：percentage of university students; climbed from... to...; before surging to.",
-    "master_version": "As is distinctly illustrated in the chart, the percentage of university students holding a part-time job climbed from 67.77% among freshmen to 71.13% and 71.93% in the sophomore and junior years, before surging to 88.24% in the senior year.",
-    "upgrade_notes": [
-      "双动词节奏交错：climbed 与 before surging to 展现走势加速度变化。",
-      "年级术语规范：freshmen / sophomore / junior / senior 四年级表达标准。"
-    ]
-  },
-  "A1.08": {
-    "item_id": "A1.08",
+  "A1.06": {
+    "item_id": "A1.06",
     "theme": "A1",
     "coordinate": "大作文 > 第一段：图表定格 > 2014城乡人口结构变迁真题首段",
     "source_id": "2014真题首段",
@@ -120,24 +107,13 @@
     "upgrade_notes": [
       "三阶段递进句型：surged from... to... and further to... 还原长周期跨度数据。",
       "对比呼应：while 从句使用 decreased steadily 平衡前半段激增走势。"
-    ]
+    ],
+    "thinking_direction": "城乡人口此消彼长历史拐点定格；把握三十年间两条人口曲线的交汇变迁。",
+    "conservative_pitfall": "注意千万与亿级大额人口数字的英文表达精度、双主体时态统摄，以及避免中式直译。（严禁直接剧透答案词）",
+    "micro_cue": "urban / rural population (城乡人口); decrease steadily (稳步下降)"
   },
-  "A1.09": {
-    "item_id": "A1.09",
-    "theme": "A1",
-    "coordinate": "大作文 > 第一段：图表定格 > 2015春节消费占比真题首段",
-    "source_id": "2015真题首段",
-    "past_paper": "2015英二",
-    "chinese": "正如饼图清晰所示，新年礼物在春节假期消费中占据了最大比重，达到 40%，而交通费用和聚餐聚会则各占约 20%。",
-    "pitfall_alert": "【考研载体防坑】：饼图必须写 in the pie chart；注意 festival spending 整体搭配。",
-    "scaffold": "句型建议：As is distinctly illustrated in the pie chart, [Item A] accounts for the largest share of..., at 40%, while [B] and [C] each make up about 20%.\n核心语素：pie chart; account for the largest share; each make up.",
-    "master_version": "As is distinctly illustrated in the pie chart, New Year gifts account for the largest share of festival spending, at 40%, while transport and gatherings each make up about 20%.",
-    "upgrade_notes": [
-      "极值与次要项一次到位：符合真题高分范文精炼表达准则。"
-    ]
-  },
-  "A1.10": {
-    "item_id": "A1.10",
+  "A1.07": {
+    "item_id": "A1.07",
     "theme": "A1",
     "coordinate": "大作文 > 第一段：图表定格 > 2016高校学生旅游目的真题首段",
     "source_id": "2016真题首段",
@@ -149,10 +125,13 @@
     "upgrade_notes": [
       "非谓语分词短语衔接：closely followed by 避免两个并列分句的单调拼接。",
       "关系代词引导定格：which make up... respectively 结构严整。"
-    ]
+    ],
+    "thinking_direction": "多要素排序占比定格；由第一名极值领衔，引出后续梯队并列百分比。",
+    "conservative_pitfall": "注意动名词充当主语的句式平衡、非限制性定语从句补充数据的连接词选用与介词规范。（严禁直接剧透答案词）",
+    "micro_cue": "sightseeing (欣赏风景); relieve pressure (缓解压力); closely followed by (紧随其后)"
   },
-  "A1.11": {
-    "item_id": "A1.11",
+  "A1.08": {
+    "item_id": "A1.08",
     "theme": "A1",
     "coordinate": "大作文 > 第一段：图表定格 > 2017博物馆数量与人数双增长真题首段",
     "source_id": "2017真题首段",
@@ -163,7 +142,10 @@
     "master_version": "As is distinctly illustrated in the chart, the number of museums in China rose steadily from 4,165 in 2013 to 4,692 two years later, while attendance grew even faster, climbing from 637 million to roughly 781 million.",
     "upgrade_notes": [
       "双主体走势分层：前半句稳步增长（rose steadily）与后半句加速狂飙（grew even faster, climbing from）形成鲜明节奏落差。"
-    ]
+    ],
+    "thinking_direction": "双指标并进定格（场馆数量增长 vs 参观人次狂飙）；凸显后者的更快增速。",
+    "conservative_pitfall": "注意区分“场馆数量（可数概念）”与“参观人次（考查客流词汇）”的选词差异与大数单位规范。（严禁直接剧透答案词）",
+    "micro_cue": "attendance (参观人次/出席人数); rise steadily vs grow even faster (稳增 vs 狂飙)"
   },
   "A2.01": {
     "item_id": "A2.01",
@@ -178,7 +160,10 @@
     "upgrade_notes": [
       "替代平庸模板：用 is by no means accidental, but deeply rooted in 替代俗套的 There are many reasons。",
       "名片式定维：冒号后直接列举两大支柱动因，阅卷老师一眼抓住逻辑骨架。"
-    ]
+    ],
+    "thinking_direction": "归因总起句；聚焦“宏观经济 + 消费心理”双驱动维度，直击核心成因。",
+    "conservative_pitfall": "避免空泛无意义套话，确保首句即明确给出两个具体归因维度，注意并列名词短语的对称结构。（严禁直接剧透答案词）",
+    "micro_cue": "by no means accidental (绝非偶然); deeply rooted in (植根于)"
   },
   "A2.02": {
     "item_id": "A2.02",
@@ -193,7 +178,10 @@
     "upgrade_notes": [
       "动宾精准度：translate... into... / ease the financial burden 均为考研核心高分动宾语素。",
       "分词伴随高效承重：easing... while accumulating... 双分词驱动结果。"
-    ]
+    ],
+    "thinking_direction": "兼职与实践价值论述；从“理论转化实践”与“家庭减负”两个层面论证个人收益。",
+    "conservative_pitfall": "注意动名词短语作主语时的谓语单数形式、使役动词后接宾语与不定式的规范，以及伴随状语的主动分词形式。（严禁直接剧透答案词）",
+    "micro_cue": "translate ... into ... (转化); ease financial burden (减轻财务负担)"
   },
   "A2.03": {
     "item_id": "A2.03",
@@ -208,7 +196,10 @@
     "upgrade_notes": [
       "外刊级表达：render quality products financially accessible 远胜 make products cheap。",
       "因果链闭环：drastically brought down costs -> financially accessible -> spurring consumption。"
-    ]
+    ],
+    "thinking_direction": "经济机制因果链推演；“工业规模量产 -> 降本惠民 -> 刺激内需繁荣”三重推进。",
+    "conservative_pitfall": "注意复合宾语（使...成为可能）的形容词用法，以及通过分词引导词（如 thereby + doing）实现严密因果衔接。（严禁直接剧透答案词）",
+    "micro_cue": "overhead costs (运营/生产成本); render ... accessible (使...变得触手可及); spur (刺激/加速)"
   },
   "A2.04": {
     "item_id": "A2.04",
@@ -223,7 +214,10 @@
     "upgrade_notes": [
       "观念转变今昔对比：no longer merely content with... but rather channel... 逻辑鲜明。",
       "高阶语素：physical subsistence（物质温饱）/ cultural enrichment（文化滋养）。"
-    ]
+    ],
+    "thinking_direction": "需求层级跃迁论述；由“基本温饱”跨越到“精神追求与文化体验”的对比升华。",
+    "conservative_pitfall": "注意结构中的介词固定搭配与抽象名词不可数规范，保持前后语义转折的逻辑力度。（严禁直接剧透答案词）",
+    "micro_cue": "subsistence (温饱/生计); channel ... into ... (将...倾注于...); enrichment (充实/丰富)"
   },
   "A2.05": {
     "item_id": "A2.05",
@@ -238,7 +232,10 @@
     "upgrade_notes": [
       "分词短语作结果状语：granting... unprecedented access to... 紧凑有力。",
       "高光词汇：ubiquitous expansion / dismantled information barriers。"
-    ]
+    ],
+    "thinking_direction": "科技赋能与数字普惠；论述移动网络普及如何打破壁垒、赋能偏远群体。",
+    "conservative_pitfall": "注意主干谓语动词的宾语搭配自然度，以及给某人提供接入渠道时的介词搭配与名词修饰。（严禁直接剧透答案词）",
+    "micro_cue": "ubiquitous (无处不在的/普及的); dismantle barriers (打破壁垒); access to (接入/使用权)"
   },
   "A2.06": {
     "item_id": "A2.06",
@@ -253,7 +250,10 @@
     "upgrade_notes": [
       "主谓承重：以无生命主语 Sustained fiscal investment 驱动主句，摒弃 The government has invested...",
       "分词伴随收束：thereby laying a solid foundation for... 逻辑一气呵成。"
-    ]
+    ],
+    "thinking_direction": "政府治理与城市化支撑；论证财政公共投入如何奠定城市吸纳人口的基石。",
+    "conservative_pitfall": "注意形容词修饰财政与基础设施的学术语域规范，以及引导结果状语时的动名词主谓语意。（严禁直接剧透答案词）",
+    "micro_cue": "fiscal investment (财政投入); infrastructure (基础设施); accommodate (容纳/吸纳)"
   },
   "A3.01": {
     "item_id": "A3.01",
@@ -268,7 +268,10 @@
     "upgrade_notes": [
       "升华词汇：以 upward trajectory 替代平铺的 trend，以 bound to persist 传递坚定推论。",
       "价值定性：超越数字表面，点出当代青年价值取向的深刻内涵。"
-    ]
+    ],
+    "thinking_direction": "宏观总结与趋势前瞻；定性群体观念转变，并预言此势头在未来持续保持。",
+    "conservative_pitfall": "注意固定搭配中介词 to 之后接词形式（名词/动名词），以及动量/势头等抽象名词的修饰搭配。（严禁直接剧透答案词）",
+    "micro_cue": "attach importance to (重视); momentum (势头/动力); persist (持续/延续)"
   },
   "A3.02": {
     "item_id": "A3.02",
@@ -283,7 +286,10 @@
     "upgrade_notes": [
       "目的状语置顶：以 To consolidate this momentum 强力开篇，锚定解决问题的宏观高度。",
       "并列平衡建议：政府与企业双主体责任划分清晰，分工明确。"
-    ]
+    ],
+    "thinking_direction": "多元协同倡议；构建“政府政策扶持 + 关联企业质量升级”并重推进的双主体建议。",
+    "conservative_pitfall": "注意目的状语前置的结构平衡，情态动词后的动宾搭配自然度，以及企业主语的代词指代规范。（严禁直接剧透答案词）",
+    "micro_cue": "consolidate (巩固); carry out sound policies (推行合理政策); upgrade (升级)"
   },
   "A3.03": {
     "item_id": "A3.03",
@@ -298,7 +304,10 @@
     "upgrade_notes": [
       "压轴倒装句型：Only when... can the whole society... 阅卷老师一眼锁定高分语法亮点。",
       "语素深度：economic benefits complement environmental preservation 凝练对仗。"
-    ]
+    ],
+    "thinking_direction": "条件限定与高质量发展收束；用“唯有...才...”强调整体社会协同达成可持续目标。",
+    "conservative_pitfall": "严格遵守 Only 引导状语从句置于句首时主句的部分倒装语序（助动词前置于主语），从句内部保持正常陈述语序。（严禁直接剧透答案词）",
+    "micro_cue": "complement (相辅相成/互补); partial inversion (部分倒装语序: can the whole society...)"
   },
   "A3.04": {
     "item_id": "A3.04",
@@ -313,7 +322,10 @@
     "upgrade_notes": [
       "辩证收尾：肯定活力同时指出隐患，展现考研英语二极具思辨深度的高分立意。",
       "高级动宾：inject tremendous vitality into / remain vigilant against potential bubbles。"
-    ]
+    ],
+    "thinking_direction": "辩证让步与理性引导收束；肯定正面经济活力的同时警惕过热风险。",
+    "conservative_pitfall": "注意让步状语从句与主句的逻辑对照，警惕搭配中的介词选用，以及引导公众行动时的动宾规范。（严禁直接剧透答案词）",
+    "micro_cue": "inject vitality (注入活力); remain vigilant against (保持警惕); rational consumption (理性消费)"
   },
   "A4.01": {
     "item_id": "A4.01",
@@ -328,7 +340,10 @@
     "upgrade_notes": [
       "逻辑链无死角闭环：数据事实定格 -> 工业降本与人口基数双推力 -> 数字鸿沟弥合建议。",
       "高分句群连贯：包含双主体对照骨架、分词作结果状语、对比转折分句全套高阶语法体系。"
-    ]
+    ],
+    "thinking_direction": "2010全篇串联；首段数据定格、次段工业规模与刚需归因、尾段普及展望与政企协同收口。",
+    "conservative_pitfall": "注意全篇时态逻辑切换（首段过去时定格历史数据，次段与尾段转入一般现在时阐述规律与倡议）、段间过渡衔接词精准度。（严禁直接剧透答案词）",
+    "micro_cue": "coherence (连贯性); overhead costs (生产成本); joint efforts (协同努力)"
   },
   "A4.02": {
     "item_id": "A4.02",
@@ -343,7 +358,10 @@
     "upgrade_notes": [
       "多维因果编织：自主研发品质提升 + 产业链高性价比 + 消费者观念转变 + 产业政策补贴。",
       "排比式结尾建议：the government should... enterprises should... and consumers should..."
-    ]
+    ],
+    "thinking_direction": "2011全篇串联；首段份额消长定格、次段自主技术与性价比归因、尾段政策扶持与质量升级收束。",
+    "conservative_pitfall": "注意自主品牌与合资品牌的对照代词呼应，因果论述中的动宾严密性，尾段情态动词的得体程度。（严禁直接剧透答案词）",
+    "micro_cue": "domestic brands (自主品牌); technological innovation (技术创新); subsidies (政策补贴)"
   },
   "A4.03": {
     "item_id": "A4.03",
@@ -358,7 +376,10 @@
     "upgrade_notes": [
       "心理与现实双重归因：职场晋升竞争 + 购房养家经济重担，贴近真实社会生活语境。",
       "对症下药式建议：针对年轻人的晋升通道 + 薪酬包与心理疏导。"
-    ]
+    ],
+    "thinking_direction": "2012全篇串联；首段表格年龄落差定格、次段职场压力与中年稳定归因、尾段企业畅通晋升建议收口。",
+    "conservative_pitfall": "注意表格题介词搭配、年龄群体划分的表达规范，次段与尾段因果对应关系的逻辑闭环。（严禁直接剧透答案词）",
+    "micro_cue": "job satisfaction (工作满意度); career progression (晋升通道); counseling (心理疏导)"
   },
   "A4.04": {
     "item_id": "A4.04",
@@ -373,7 +394,10 @@
     "upgrade_notes": [
       "四年阶梯式深度分析：大一适应生活 -> 大二大三自理与实践 -> 大四求职压力井喷，极具说服力。",
       "理性转折建议：以 Nevertheless 引出学业与兼职的黄金平衡点。"
-    ]
+    ],
+    "thinking_direction": "2013全篇串联；首段兼职多阶段走势定格、次段学业求稳与求职实战归因、尾段平衡兼职与学业建议收口。",
+    "conservative_pitfall": "注意各年级术语表达准确度、分词后置修饰与主干谓语的时态搭配，尾段辩证引导的语气分寸。（严禁直接剧透答案词）",
+    "micro_cue": "part-time job (兼职); practical experience (实践经验); academic priorities (学业重心)"
   },
   "A4.05": {
     "item_id": "A4.05",
@@ -388,7 +412,10 @@
     "upgrade_notes": [
       "大时代命题：把城乡人口变动拔高到中国城镇化缩影（a microcosm of China's urbanisation）。",
       "因果链纵深：产业吸纳就业 + 公共资源落差吸引 -> 人口不可逆迁移。"
-    ]
+    ],
+    "thinking_direction": "2014全篇串联；首段城乡人口拐点定格、次段工业化拉动与公共服务均等化归因、尾段城市可持续治理收束。",
+    "conservative_pitfall": "注意千万与亿级大额人口数字的英文表达精度、双主体时态统摄，尾段可持续发展倒装句语序。（严禁直接剧透答案词）",
+    "micro_cue": "urbanization (城市化); infrastructure (基础设施); sustainable development (可持续发展)"
   },
   "A4.06": {
     "item_id": "A4.06",
@@ -403,7 +430,10 @@
     "upgrade_notes": [
       "文化意涵拆解：超越数字账目，点破春节文化核心是团聚与情感回馈（family reunion and mutual appreciation）。",
       "末段倡导新风：倡导 sensible spending habits，摒弃面子攀比。"
-    ]
+    ],
+    "thinking_direction": "2015全篇串联；首段礼物极值与交通聚餐并列定格、次段礼尚往来与交通便利归因、尾段文明理性消费建议收束。",
+    "conservative_pitfall": "注意饼图介词与占比动词规范、文化心理动词搭配，以及尾段倡导理性节俭时的动宾规范。（严禁直接剧透答案词）",
+    "micro_cue": "festival spending (节日消费); family reunion (家庭团聚); rational consumption (理性消费)"
   },
   "A4.07": {
     "item_id": "A4.07",
@@ -418,7 +448,10 @@
     "upgrade_notes": [
       "身心双维动因：对大自然的向往（immerse themselves in nature）+ 繁重学业下的减压刚需（relieve mental exhaustion）。",
       "文气贯通：以 Whatever their purposes 开启末段，包容多维目的。"
-    ]
+    ],
+    "thinking_direction": "2016全篇串联；首段旅游目的梯队定格、次段拥抱自然与减压交友归因、尾段文明旅游与安全保障收口。",
+    "conservative_pitfall": "注意多项占比并列句式结构平衡、非限制性定语从句连接词选用，以及尾段多方建议的衔接自然度。（严禁直接剧透答案词）",
+    "micro_cue": "sightseeing (观光); relieve stress (减压); safety awareness (安全意识)"
   },
   "A4.08": {
     "item_id": "A4.08",
@@ -433,7 +466,10 @@
     "upgrade_notes": [
       "供需矛盾与协调：场馆数量稳增（供给端）vs 参观人次狂飙（需求端井喷）。",
       "时代主题升华：a microcosm of the continuous improvement in the quality of life。"
-    ]
+    ],
+    "thinking_direction": "2017全篇串联；首段场馆稳增与人次狂飙定格、次段精神文化追求觉醒与免费开放归因、尾段文旅数字化收束。",
+    "conservative_pitfall": "注意场馆数量与客流量用词差异、大数单位规范，以及次段次级展开时的因果衔接逻辑。（严禁直接剧透答案词）",
+    "micro_cue": "attendance (参观人次); cultural enrichment (文化充实); public welfare (公益/普惠)"
   },
   "B1.01": {
     "item_id": "B1.01",
@@ -448,7 +484,10 @@
     "upgrade_notes": [
       "分词状语前置：Knowing that you are both thrilled and somewhat apprehensive 极富人情味。",
       "自然破题：以 I am writing this letter to share... 顺理成章引入建议主题。"
-    ]
+    ],
+    "thinking_direction": "私人书信温情开篇；先祝贺对方升学，共情忐忑心境，继而自然点明提供行前建议的写信目的。",
+    "conservative_pitfall": "注意非谓语分词短语置于句首时的逻辑主语一致性，以及写信目的句中动宾结构的得体礼貌。（严禁直接剧透答案词）",
+    "micro_cue": "admission to (被...录取); apprehensive (忐忑的); practical suggestions (实用建议)"
   },
   "B1.02": {
     "item_id": "B1.02",
@@ -463,7 +502,10 @@
     "upgrade_notes": [
       "公文四要素合一：一句话明确交代投诉主体、对象商品、购买渠道与写信意图。",
       "精准动词搭配：以 lodge a formal complaint 替换粗陋的 complain about。"
-    ]
+    ],
+    "thinking_direction": "商务公文维权开篇；克制冷静交代购买事实，正式立案投诉并敦促对方尽快给出解决方案。",
+    "conservative_pitfall": "严禁口语化情绪宣泄，确保商务正式语体，交代清楚交易关键要素，动宾搭配严谨规范。（严禁直接剧透答案词）",
+    "micro_cue": "lodge a formal complaint (提出正式投诉); prompt resolution (迅速解决方案)"
   },
   "B1.03": {
     "item_id": "B1.03",
@@ -478,7 +520,10 @@
     "upgrade_notes": [
       "公文标配结构：目的置前（To ensure...）+ 机构主体（Student Union）+ 安排（is scheduled to recruit）。",
       "信息凝练：时间、地点、名额、资质要求一句锁定。"
-    ]
+    ],
+    "thinking_direction": "公告公文定调；开篇直接点出活动举办初衷与背景，明确宣布招募主体、时间地点与名额门槛。",
+    "conservative_pitfall": "注意公文客观语体，被动语态与计划时间表达式的合规性，以及非谓语不定式作目的状语的用法。（严禁直接剧透答案词）",
+    "micro_cue": "recruit (招募); exceptional communication skills (出色的沟通能力)"
   },
   "B1.04": {
     "item_id": "B1.04",
@@ -493,7 +538,10 @@
     "upgrade_notes": [
       "情感抓手破题：从对方的兴趣（eager to learn about...）切入，消解突兀感。",
       "正式邀约用词：以 cordially invite you to 营造尊重与诚意。"
-    ]
+    ],
+    "thinking_direction": "诚挚学术/社交邀约；以对方兴趣切入破题，正式发出参会邀请并交代具体时间安排。",
+    "conservative_pitfall": "注意分词前置作状语时的逻辑主语对齐，邀请句中副词与动词的礼貌搭配，以及时间状语的位置。（严禁直接剧透答案词）",
+    "micro_cue": "cordially invite (诚挚邀请); scheduled for (定于...)"
   },
   "B1.05": {
     "item_id": "B1.05",
@@ -508,7 +556,10 @@
     "upgrade_notes": [
       "先道歉后叙事：避免找借口前置导致诚意不足。",
       "情感落差渲染：Having looked forward to... for weeks 充分体现心理重度重视。"
-    ]
+    ],
+    "thinking_direction": "诚恳致歉与突发事由说明；开门见山就爽约致歉，说明期待已久却因病被迫卧床的无奈实情。",
+    "conservative_pitfall": "区分道歉主干与原因状语的轻重层次，注意完成时分词短语作状语的用法，以及动名词复合结构的正确形式。（严禁直接剧透答案词）",
+    "micro_cue": "sincere apology for ... (为...由衷致歉); stay in bed (卧床)"
   },
   "B1.06": {
     "item_id": "B1.06",
@@ -523,7 +574,10 @@
     "upgrade_notes": [
       "礼貌回礼：以双感谢开篇，肯定邀请的高价值（an invaluable opportunity）。",
       "并列形容词点缀：both honored and pleased 体现谦逊与欣喜。"
-    ]
+    ],
+    "thinking_direction": "礼貌答谢与欣然赴约；对盛情邀请表达诚挚感谢，欣然应邀并点出该活动的重要文化交流价值。",
+    "conservative_pitfall": "注意形容词修饰邀请时的正式礼貌语域，并列谓语结构的时态一致性，以及代词指代的明确性。（严禁直接剧透答案词）",
+    "micro_cue": "gracious invitation (盛情邀请); honored and pleased (荣幸且欣喜)"
   },
   "B2.01": {
     "item_id": "B2.01",
@@ -538,7 +592,10 @@
     "upgrade_notes": [
       "for 引导原因分句：书面色彩强于 because，衔接流畅自然。",
       "负面后果反向加码：prevent you from falling into financial distress 强化建议份量。"
-    ]
+    ],
+    "thinking_direction": "建议分层展开；提出财务预算管控建议，并阐明如此做能规避何种负面后果（先行动后收益闭环）。",
+    "conservative_pitfall": "避免通篇使用单一弱化的 should，注意固定短语后的动词形式，以及介词短语修饰的规范性。（严禁直接剧透答案词）",
+    "micro_cue": "manage budget (管理预算); allocate expenses (分配开支); financial distress (财务窘境)"
   },
   "B2.02": {
     "item_id": "B2.02",
@@ -553,7 +610,10 @@
     "upgrade_notes": [
       "强调句型突出要点：It is worth emphasizing that... 引导核心硬性门槛。",
       "官方招聘规范句：preference will be given to those with... 语域极其纯正。"
-    ]
+    ],
+    "thinking_direction": "门槛资质与优录原则；分层交代基本岗位语言门槛与优先录取的加分经历。",
+    "conservative_pitfall": "注意形式主语句型与被动语态搭配，优先权短语后接介词短语的形式规范。（严禁直接剧透答案词）",
+    "micro_cue": "applicant (应聘者/申请人); preference will be given to (优先考虑)"
   },
   "B2.03": {
     "item_id": "B2.03",
@@ -568,7 +628,10 @@
     "upgrade_notes": [
       "分词前置制造交涉筹码：Having placed high trust in your brand 占据道德制高点。",
       "并列宾语从句控诉缺陷：and that... 并列引出双重硬件质量瑕疵。"
-    ]
+    ],
+    "thinking_direction": "信任反差与产品缺陷客观陈述；以深厚信赖为前置对比，点出屏幕严重故障与电池失效两项硬伤。",
+    "conservative_pitfall": "注意分词前置对比信任心理时的逻辑主语一致性，以及描述硬件质量问题时的客观术语与动词搭配。（严禁直接剧透答案词）",
+    "micro_cue": "dismayed to discover (惊愕地发现); defect (故障/瑕疵); fail to charge (无法充电)"
   },
   "B3.01": {
     "item_id": "B3.01",
@@ -583,7 +646,10 @@
     "upgrade_notes": [
       "权利立场坚定：it is entirely reasonable for me to demand 名词化索赔。",
       "给出明确解决时限：within three working days 体现专业交涉水准。"
-    ]
+    ],
+    "thinking_direction": "商务交涉收口；理性提出全额退款或换机二选一的明确时限诉求，表达对回复的期待。",
+    "conservative_pitfall": "注意公文坚定但克制的交涉姿态，避免使用乞求口吻或攻击性辞令，注意短语中形容词与介词的搭配。（严禁直接剧透答案词）",
+    "micro_cue": "under these circumstances (鉴于此种情况); full refund (全额退款); replacement (更换机器)"
   },
   "B3.02": {
     "item_id": "B3.02",
@@ -598,7 +664,10 @@
     "upgrade_notes": [
       "高级倒装条件句：以 Should you have any inquiries 替代 If you have questions，公文气派十足。",
       "截止日期严谨闭环：The deadline for application is... 明确时间界限。"
-    ]
+    ],
+    "thinking_direction": "公告服务通道与截止提醒；提供答疑联络方式，声明严格的报名截止节点以示规范。",
+    "conservative_pitfall": "注意条件状语从句的倒装省略用法，否定祈使句与介词后接从句或分词的语法严密性。（严禁直接剧透答案词）",
+    "micro_cue": "inquiry (咨询/疑问); do not hesitate to ... (毫不犹豫/随时...); deadline (截止日期)"
   },
   "B3.03": {
     "item_id": "B3.03",
@@ -613,7 +682,10 @@
     "upgrade_notes": [
       "地道动宾：prove beneficial to 比 be useful 高级得多。",
       "亲切口吻：drop me a line 自然契合私人亲友书信情境。"
-    ]
+    ],
+    "thinking_direction": "友人书信温情闭环；表达希望建议有所助益的美好祝愿，并主动提供后续行前沟通通道。",
+    "conservative_pitfall": "注意希望从句中的谓语形式，形容词后置搭配介词的用法，以及非正式私人书信收尾的亲切自然度。（严禁直接剧透答案词）",
+    "micro_cue": "prove beneficial to (对...有所助益); drop me a line (随时写信告知)"
   },
   "B3.04": {
     "item_id": "B3.04",
@@ -628,7 +700,10 @@
     "upgrade_notes": [
       "抬高对方价值：your unique insights will undoubtedly contribute to... 说明“非你不可”。",
       "闭环落实：Please confirm your availability 引导明确操作节点。"
-    ]
+    ],
+    "thinking_direction": "热切期盼与确认时限；肯定对方出席的重要价值，礼貌请求在截止日前确认参会可能性。",
+    "conservative_pitfall": "注意期盼短语中介词 to 之后接动名词的铁律，情态副词修饰动词的位置，以及确认日程的动宾搭配。（严禁直接剧透答案词）",
+    "micro_cue": "look forward to doing (期待...); enrich (丰富/增益); availability (是否有空/日程可用性)"
   },
   "B3.05": {
     "item_id": "B3.05",
@@ -643,7 +718,10 @@
     "upgrade_notes": [
       "双层软化语气：I wonder if it would be possible... 极致尊重长辈教授时间。",
       "客套闭环：at your convenience 彰显教养与分寸感。"
-    ]
+    ],
+    "thinking_direction": "歉意重申与改约协商；再次致歉日程冲突，以双层委婉语气商讨待康复后重新安排拜访的可行性。",
+    "conservative_pitfall": "注意重申歉意时名词与介词搭配，委婉探寻句型中的虚拟语气用法，以及“以对方方便为准”的固定表达。（严禁直接剧透答案词）",
+    "micro_cue": "apologies for (为...致歉); reschedule (重新安排); at your convenience (在您方便时)"
   },
   "B4.01": {
     "item_id": "B4.01",
@@ -658,7 +736,10 @@
     "upgrade_notes": [
       "私人书信金牌模板：祝贺与共情开篇 -> 财务与活动双轨建议 -> 温暖祝福收口。",
       "动词句式层次：you had better learn to... / I advise you to balance... with..."
-    ]
+    ],
+    "thinking_direction": "建议信全篇格式与内容串联；开篇祝贺与理解心境、正文财务预算与课外活动双建议、尾段温暖寄语收口。",
+    "conservative_pitfall": "注意书信格式（称谓、署名）、正文建议的逻辑推进，以及私人朋友书信得体亲切的语体契约。（严禁直接剧透答案词）",
+    "micro_cue": "practical recommendations (实用建议); balance academics and activities (平衡学业与活动)"
   },
   "B4.02": {
     "item_id": "B4.02",
@@ -673,7 +754,10 @@
     "upgrade_notes": [
       "公文规范排版：Notice 标题居中，机构署名纯正。",
       "倒装与被动：preference will be given to / Should you have any inquiries 语言极其严谨。"
-    ]
+    ],
+    "thinking_direction": "招募通知公告全篇串联；Notice 居中标题与日期置顶、首段活动背景与名额、正文任职门槛、尾段报名截止通道。",
+    "conservative_pitfall": "严格遵守通知公文排版规范（标题居中、无称谓、落款机构名与日期），确保正文客观严谨。（严禁直接剧透答案词）",
+    "micro_cue": "Notice header (Notice 标题规范); qualification requirements (任职资格); deadline (截止日期)"
   },
   "B4.03": {
     "item_id": "B4.03",
@@ -688,7 +772,10 @@
     "upgrade_notes": [
       "详略得当的方案汇报：历史渊源 + 核心价值观 + 民俗细节 + 道具辅助。",
       "主动征求导师意见：Please let me know if any adjustment is needed 尽显治学严谨。"
-    ]
+    ],
+    "thinking_direction": "学术回复信全篇串联；致信教授敬语、首段致谢并欣然受邀、正文展示提纲汇报、尾段征求反馈与礼貌收口。",
+    "conservative_pitfall": "严格保持学术师生沟通的高礼貌尊称与正式书信格式，正文使用分词与宾语从句清晰呈现展示要点。（严禁直接剧透答案词）",
+    "micro_cue": "academic register (学术正式语域); presentation outline (展示提纲); feedback (征求反馈)"
   },
   "B4.04": {
     "item_id": "B4.04",
@@ -703,7 +790,10 @@
     "upgrade_notes": [
       "公文三段式递进：交易事实与投诉 -> 质量瑕疵与售后无门 -> 限期退款与换机诉求。",
       "署名规范：Dear Sir or Madam 对应 Yours faithfully。"
-    ]
+    ],
+    "thinking_direction": "商务投诉信全篇串联；称谓致敬、首段正式立案投诉、正文前置信赖与双缺陷控诉、尾段限期退款或换机诉求。",
+    "conservative_pitfall": "注意商务交涉的专业态度，事实清楚、诉求明确，避免情绪化词汇，确保落款合规。（严禁直接剧透答案词）",
+    "micro_cue": "formal complaint (正式投诉); defective product (缺陷产品); full refund or replacement (退款或换机)"
   },
   "B4.05": {
     "item_id": "B4.05",
@@ -718,6 +808,9 @@
     "upgrade_notes": [
       "议程精简干练：finalize travel itinerary -> compare heritage sites -> discuss transportation and budget。",
       "礼貌推动行动：Please confirm your availability by this Thursday 杜绝拖延。"
-    ]
+    ],
+    "thinking_direction": "行前邀请信全篇串联；首段以兴趣破题并正式邀约、正文交代线上会议议程（路线/安全/住宿）、尾段期盼回复与截止确认。",
+    "conservative_pitfall": "注意私人朋友邀请信的亲切热情语域，议题并列动宾短语的句法对称性，以及截止日期询问的得体礼貌。（严禁直接剧透答案词）",
+    "micro_cue": "itinerary (行程规划); safety precautions (安全预防); confirmation (参会确认)"
   }
 }

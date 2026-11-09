@@ -9,7 +9,7 @@
 
 - [一、 项目背景与解决痛点](#一-项目背景与解决痛点)
 - [二、 核心训练机制：五步闭环](#二-核心训练机制五步闭环)
-- [三、 八大训练主题框架与 48 题标准化题库](#三-八大训练主题框架与-48-题标准化题库)
+- [三、 八大训练主题框架与 45 题标准化题库](#三-八大训练主题框架与-45-题标准化题库)
 - [四、 资产库与持久化机制](#四-资产库与持久化机制)
 - [五、 工程目录结构](#五-工程目录结构)
 - [六、 随附 CLI 工具与自动化测试](#六-随附-cli-工具与自动化测试)
@@ -36,7 +36,7 @@
 
 ```mermaid
 flowchart TD
-    Step1["步骤 1：读取进度看板\n衔接进度，提示近期高频弱点与待回补队列"] --> Step2["步骤 2：秒级提取出题卡 (AI给中文)\n调用 get-exercise 给出坐标与考研防坑脚手架"]
+    Step1["步骤 1：读取进度看板\n衔接进度，提示近期高频弱点与待回补队列"] --> Step2["步骤 2：秒级提取出题卡 (AI给中文)\n调用 get-exercise 输出保守点拨卡片 (无剧透/思考方向+维度警示)"]
     Step2 --> Step3["步骤 3：学员作答 (支持文本/手写拍照)\nAI 纯净两阶深度诊断"]
     Step3 --> Step4{"学员意图判断"}
     Step4 -- 当场修改重写 --> Step5["订正通过 -> 登记结课"]
@@ -51,9 +51,9 @@ flowchart TD
 
 ---
 
-## 三、 八大训练主题框架与 48 题标准化题库
+## 三、 八大训练主题框架与 45 题标准化题库
 
-全周期课程由两大主线、共 8 个主题构成，并在 `references/curated_exercises.json` 中预制了 48 道覆盖大纲全节点的标准化训练题：
+全周期课程由两大主线、共 8 个主题构成，并在 `references/curated_exercises.json` 中预制了 45 道覆盖大纲全节点的标准化训练题：
 
 ### 主线 A：大作文（Task 2）图表写作
 * **主题 A1：第一段·图表数据定格描述**（柱状图动态增减/对比、饼图占比极值，涵盖 2010–2017 真题首段）；
@@ -95,7 +95,7 @@ kaoyan-asset-consolidator/
 │           ├── tasks.jsonl
 │           └── archive/          # 2010–2017 年 8 篇大作文终版范文 Markdown
 ├── references/                   # 教学业务规程与参考规范
-│   ├── curated_exercises.json    # 48 道真题级标准化练习题库 (含题干、脚手架、范文)
+│   ├── curated_exercises.json    # 45 道真题级标准化练习题库 (含题干、脚手架、范文)
 │   ├── curriculum_map.md         # 8 大主题大纲与真实语料 ID 映射表
 │   ├── grammar_rubric.md         # 七大硬伤分类与两阶诊断标准
 │   ├── dashboard_templates.md    # 看板、错题本与待回补队列模板定义
@@ -120,8 +120,8 @@ kaoyan-asset-consolidator/
 # 1. 运行全部自动化单元测试套件 (24 项全通)
 python -m unittest discover -s scripts -p "test_*.py"
 
-# 2. 秒级提取指定节点真题练习题 (输出纯净出题卡与脚手架)
-python scripts/consolidator.py get-exercise --id T2_CHART_SEN_014
+# 2. 秒级提取指定节点真题练习题 (默认保守点拨避免剧透，支持 --hint 索取微语素线索)
+python scripts/consolidator.py get-exercise --item-id A1.01
 
 # 3. 手机手写拍照图片预处理 (自动根据 EXIF 旋转方向扶正图片)
 python scripts/consolidator.py prepare-image --input /path/to/upload.jpg

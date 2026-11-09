@@ -216,19 +216,38 @@ class TestConsolidator(unittest.TestCase):
         self.assertEqual(data["maimemo_sync"]["synced_words"], ["accommodate"])
 
     def test_get_exercise_cli(self):
-        # Test by item-id
+        # 1. Test by item-id (Default is conservative mode: zero spoiler, no sentence templates)
         cmd = [sys.executable, str(SCRIPT_DIR / "consolidator.py"), "get-exercise", "--item-id", "A1.01"]
         res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", check=True)
         self.assertIn("动态柱状图显著增长对比", res.stdout)
         self.assertIn("T2_GEN_STR_001", res.stdout)
+        self.assertIn("思考方向", res.stdout)
+        self.assertIn("考研维度点拨", res.stdout)
+        self.assertNotIn("句型建议", res.stdout)
+        self.assertNotIn("1亿 = 100 million", res.stdout)
         self.assertNotIn("保底版", res.stdout)
 
-        # Test by theme and index
-        cmd = [sys.executable, str(SCRIPT_DIR / "consolidator.py"), "get-exercise", "--theme", "A1", "--index", "2", "--json"]
-        res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", check=True)
-        data = json.loads(res.stdout)
+        # 2. Test detailed mode
+        cmd_det = [sys.executable, str(SCRIPT_DIR / "consolidator.py"), "get-exercise", "--item-id", "A1.01", "--mode", "detailed"]
+        res_det = subprocess.run(cmd_det, capture_output=True, text=True, encoding="utf-8", check=True)
+        self.assertIn("脚手架提示", res_det.stdout)
+        self.assertIn("句型建议", res_det.stdout)
+
+        # 3. Test hint mode (on-demand micro cues)
+        cmd_hint = [sys.executable, str(SCRIPT_DIR / "consolidator.py"), "get-exercise", "--item-id", "A1.01", "--hint"]
+        res_hint = subprocess.run(cmd_hint, capture_output=True, text=True, encoding="utf-8", check=True)
+        self.assertIn("微语素备忘线索", res_hint.stdout)
+        self.assertIn("subscription", res_hint.stdout)
+
+        # 4. Test by theme and index JSON format
+        cmd_json = [sys.executable, str(SCRIPT_DIR / "consolidator.py"), "get-exercise", "--theme", "A1", "--index", "2", "--json"]
+        res_json = subprocess.run(cmd_json, capture_output=True, text=True, encoding="utf-8", check=True)
+        data = json.loads(res_json.stdout)
         self.assertEqual(data["item_id"], "A1.02")
         self.assertEqual(data["source_id"], "T2_CHART_SEN_014")
+        self.assertIn("thinking_direction", data)
+        self.assertIn("conservative_pitfall", data)
+        self.assertIn("micro_cue", data)
 
     def test_prepare_image_cli(self):
         from PIL import Image

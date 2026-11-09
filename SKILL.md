@@ -43,7 +43,7 @@ description: 考研英语二外脑资产内化与语法巩固训练私教（专�
 # 1. 查看当前训练看板状态、完成题数、待回补清单与下一步行动指令
 /usr/bin/python3 /var/minis/workspace/kaoyan-asset-consolidator/scripts/consolidator.py status
 
-# 2. 【标准推荐】一键提取指定题目的完整出题卡片 (无 emoji，含题干、脚手架、考研防坑、高级版范文)
+# 2. 【标准推荐】一键提取指定题目的出题卡片 (无 emoji，默认保守提示防剧透)
 /usr/bin/python3 /var/minis/workspace/kaoyan-asset-consolidator/scripts/consolidator.py get-exercise \
   --item-id A1.01
 
@@ -122,8 +122,8 @@ flowchart TD
    - `[今日训练规划]`：宣布本次计划训练的主题与计划题数。
    - `[模式确认]`：“学员您好！系统已就绪。本次训练支持两种节奏：模式 A [即时精析]（做一题订正一题）与 模式 B [攻坚冲刺]（连续刷题，诊断后可随时回复‘下一题’，错因自动存入待回补队列，收工前统一默写）。请问按既定规划推进，还是指定其他主题？”
 
-### 步骤 2：基于外脑定向出题（AI 给汉语）
-AI 通过调用 `consolidator.py get-exercise` 一步提取素材，**每次仅发放 1 道汉译英题目**。出题展示内容严格执行以下格式（禁止使用 emoji，注明支持手写拍照）：
+### 步骤 2：基于外脑定向出题（AI 给汉语，保守模式克制出题）
+AI 通过调用 `consolidator.py get-exercise` 一步提取素材，**每次仅发放 1 道汉译英题目**。出题展示内容严格执行以下保守格式（禁止使用 emoji，注明支持手写拍照，严禁整句挖空模版与答案剧透）：
 
 ```markdown
 ### [训练题目: 大作文 > 第一段：图表数据定格描述 > 动态柱状图显著增长对比]
@@ -132,14 +132,19 @@ AI 通过调用 `consolidator.py get-exercise` 一步提取素材，**每次仅�
 - **[外脑溯源]**: `T2_GEN_STR_001` (2010英二)
 - **[待译汉语句子]**:
   > "正如柱状图清晰所示，发展中国家的手机用户数量从 2000 年的约 4 亿大幅激增至 2008 年的近 40 亿，而发达国家的这一数字则增长较为缓慢，稳定在约 10 亿。"
-- **[考研防坑提示]**:
-  【考研数据防坑】：注意中文“亿”的单位换算（1亿 = 100 million = 0.1 billion），切勿直译为 million 导致缩小100倍；注意 countries 复数与 those in 代词呼应。
-- **[脚手架提示]**:
-  句型建议：As is distinctly illustrated in the chart, [主体A] witnessed a dramatic surge in..., from... to..., while [主体B] experienced a rather slow increase and stayed at...
-  核心语素：surge dramatically from... to... / experience a rather slow increase / stay at about...
+- **[思考方向]**:
+  双主体走势动态对比；构建图表定格主谓骨架，准确呈现时空起止节点与增减走势对照。
+- **[考研维度点拨]**:
+  注意图表载体介词搭配、英文大数据数量级规范（千万/亿级表达），以及后半句主语代词呼应与时态一致性。（严禁直接剧透答案词）
 
-[输入指引]: 请在下方输入你的独立英语翻译（可在输入框直接文字输入，或在纸面/平板上手写后拍照发送）。
+[输入指引]: 请在下方输入你的独立英语翻译（可在输入框直接文字输入，或在纸面/平板上手写后拍照发送）。若遇专有名词卡壳，可回复“提示”获取微线索。
 ```
+
+**【出题保守点拨原则】**：
+- **杜绝整句挖空骨架**：严禁给出完整英文挖空模版（如 `As is distinctly illustrated in... while...`），绝不让回译退化为填空题；
+- **杜绝整套语素翻译**：严禁在出题卡片中直接贴出现成动宾短语与汉英对译；
+- **防坑点拨维度化**：仅做考点维度警示（如时态、单复数、介词、大数单位规范），严禁直接给出答案词（如禁止写出具体单位换算数字、具体动词过去式或代词答案）；
+- **阶梯式按需微提示**：出题默认仅给汉语句子、思考方向与考点维度；仅当学员主动输入“提示”或“语素”表示卡壳时，才调用 `--hint` 提供 1~2 个最难专有名词原形微线索。
 
 ### 步骤 3：学员英文作答 -> AI 两阶深度讲解（彻底删除保底版，直击高级版）
 学员提交英文作答后（若是拍照图片，先调用 `consolidator.py prepare-image` 预处理），AI 严禁简单给出“正确/错误”，必须执行以下两阶深度讲解（详见 [grammar_rubric.md](file:///D:/Fuchen/project/kaoyan-asset-consolidator/references/grammar_rubric.md)）：
@@ -237,3 +242,5 @@ AI 通过调用 `consolidator.py get-exercise` 一步提取素材，**每次仅�
    - **短命进程绝对路径**：每条命令均为独立子进程，无交互式输入，统一使用绝对路径；
    - **文件落盘流**：严禁在命令行硬拼长文本，统一写入 `/var/minis/workspace/kaoyan/settle.json` 再通过 `--file` 传参；
    - **外脑持久化解耦**：优先将看板与错题本挂载至宿主外部目录 `/var/minis/mounts/Documents/考研英语/资产复盘`，保证沙盒重置后数据不丢。
+9. **出题保守与主动回忆红线 (Active Recall & Conservative Prompting)**  
+   出题时严禁提供过多、过明显的提示，严禁给出整句英文骨架或提前泄露目标词汇与语法答案。必须把构思句子骨架、选择时态与调动词汇的认知空间完整留给学员，最大化主动回忆与实战纠错效果。仅在学员主动提出卡壳求助时，才提供克制的难词原形微提示。

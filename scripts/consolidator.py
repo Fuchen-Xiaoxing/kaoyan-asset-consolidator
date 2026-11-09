@@ -941,8 +941,20 @@ def cmd_get_exercise(args):
         print(json.dumps(target, ensure_ascii=False, indent=2))
         return
 
-    # Clean markdown exercise card (Zero emoji, NO baseline)
-    card = f"""### [训练题目: {target.get('coordinate')}]
+    if getattr(args, "hint", False):
+        cue = target.get('micro_cue', '无特殊生僻词，请根据中文句意尝试独立遣词造句。')
+        card = f"""### [微语素备忘线索: {target.get('coordinate')}]
+
+- **[外脑溯源]**: `{target.get('source_id')}` ({target.get('past_paper')})
+- **[难词/核心词微线索]**:
+  {cue}
+"""
+        print(card)
+        return
+
+    mode = getattr(args, "mode", "conservative")
+    if mode == "detailed":
+        card = f"""### [训练题目: {target.get('coordinate')}]
 
 - **[框架坐标]**: `{target.get('coordinate')}`
 - **[外脑溯源]**: `{target.get('source_id')}` ({target.get('past_paper')})
@@ -954,6 +966,23 @@ def cmd_get_exercise(args):
   {target.get('scaffold')}
 
 [输入指引]: 请在下方输入你的独立英语翻译（可在输入框直接文字输入，或在纸面/平板上手写后拍照发送）。
+"""
+    else:
+        # Conservative mode (Default): Zero spoiler, dimension-only alerts, no full templates
+        direction = target.get('thinking_direction') or '构建段落功能主谓骨架，准确交代逻辑衔接与考点要素。'
+        pitfall = target.get('conservative_pitfall') or '注意图表/书信语域规范、主谓一致、时态统摄与固定介词搭配。（严禁直接剧透答案词）'
+        card = f"""### [训练题目: {target.get('coordinate')}]
+
+- **[框架坐标]**: `{target.get('coordinate')}`
+- **[外脑溯源]**: `{target.get('source_id')}` ({target.get('past_paper')})
+- **[待译汉语句子]**:
+  > "{target.get('chinese')}"
+- **[思考方向]**:
+  {direction}
+- **[考研维度点拨]**:
+  {pitfall}
+
+[输入指引]: 请在下方输入你的独立英语翻译（可在输入框直接文字输入，或在纸面/平板上手写后拍照发送）。若遇专有名词卡壳，可回复“提示”获取微线索。
 """
     print(card)
 
@@ -1026,11 +1055,13 @@ def main():
     p_get.add_argument("--index", type=int, default=1, help="条目序号 (从1开始)")
     p_get.add_argument("--item-id", help="条目ID (优先根据ID查找)")
 
-    # 4.1 get-exercise (一键完整出题卡片，无 emoji，含题干、脚手架、考研防坑、终版范文)
-    p_ex = subparsers.add_parser("get-exercise", help="提取指定题目的完整出题卡片 (无 emoji，含题干、脚手架、考研防坑提示、高级版范文)")
+    # 4.1 get-exercise (一键提取出题卡片，无 emoji，默认保守模式避免剧透)
+    p_ex = subparsers.add_parser("get-exercise", help="提取指定题目的出题卡片 (无 emoji，默认保守提示，杜绝剧透)")
     p_ex.add_argument("--item-id", help="题目编号 (如 A1.01, B2.01)")
     p_ex.add_argument("--theme", help="主题代码 (A1..B4)")
     p_ex.add_argument("--index", type=int, default=1, help="主题内序号 (从1开始)")
+    p_ex.add_argument("--mode", choices=["conservative", "detailed"], default="conservative", help="出题提示模式 (conservative=保守点拨避免剧透[默认], detailed=详细脚手架)")
+    p_ex.add_argument("--hint", action="store_true", help="提取难词微语素线索 (学员卡壳求助时调用)")
     p_ex.add_argument("--json", action="store_true", help="以纯 JSON 格式输出")
 
     # 4.2 prepare-image (原生预处理学员手写答题图片)
